@@ -1,0 +1,6 @@
+{
+    "tailedBeastsSchema": "Tailed Beasts Schema",
+    "getAllTailedBeasts": "Get All Tailed Beasts",
+    "getTailedBeastById": "Get Tailed Beast by Id",
+    "searchTailedBeast": "Search Tailed Beast"
+  }

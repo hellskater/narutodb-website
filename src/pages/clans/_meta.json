@@ -1,0 +1,6 @@
+{
+    "clansSchema": "Clans Schema",
+    "getAllClans": "Get All Clans",
+    "getClanById": "Get Clan by Id",
+    "searchClan": "Search Clan"
+  }
