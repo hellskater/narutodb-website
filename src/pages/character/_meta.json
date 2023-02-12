@@ -1,11 +1,6 @@
 {
   "characterSchema": "Character Schema",
   "getAllCharacters":"Get All Characters",
-  "getAllTeams": "Get All Teams",
-  "getAllVillages" :"Get All Villages",
-  "getAllTailBeasts": "Get All Tailbeasts",
-  "getAllKekkeigenkai": "Get All Kikkeigenkai",
-  "getAllKara": "Get All Kara",
-  "getAllClans": "Get All Clans",
-  "getAllAkatsuki": "Get All Akatsuki"
+  "getCharacterById":"Get Character by Id",
+  "searchCharacterById": "Search Character"
 }
