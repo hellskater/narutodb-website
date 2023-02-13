@@ -1,13 +1,16 @@
 {
-  "index": "Introduction",
-  "character": "Character",
-  "clans": "Clans",
-  "kara": "Kara",
-  "kekkeigenkai": "Kekkeigenkai",
-  "tailedbeasts":"Tailed Beasts",
-  "teams": "Teams",
-  "villages":"Villages",
-  "akatsuki":"Akatsuki",
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
