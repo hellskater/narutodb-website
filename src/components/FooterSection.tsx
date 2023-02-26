@@ -5,7 +5,7 @@ const FooterSection = () => {
   const { resolvedTheme } = useTheme();
 
   return (
-    <div className="flex flex-col items-center justify-center py-10 bg-[#f3f4f6] dark:bg-[#171717]">
+    <div className="flex flex-col border-t-[1px] dark:border-[#282828] items-center justify-center py-10 bg-[#f3f4f6] dark:bg-[#171717]">
       <div className="px-5 lg:px-10 flex flex-col justify-center items-center font-mono bg">
         <div className="flex p-6 gap-5">
           <a href="https://vercel.com/" target="_blank">
