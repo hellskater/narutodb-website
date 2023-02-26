@@ -17,8 +17,8 @@
     "get": "^1.4.0",
     "lodash": "^4.17.21",
     "next": "^13.0.6",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
+    "nextra": "^2.2.16",
+    "nextra-theme-docs": "^2.2.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

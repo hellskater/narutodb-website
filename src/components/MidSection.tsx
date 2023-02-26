@@ -20,8 +20,8 @@ const MidSection = () => {
         <DocLink link="characters" text="Characters" />,{" "}
         <DocLink link="clans" text="Clans" />,{" "}
         <DocLink link="villages" text="Villages" />,{" "}
-        <DocLink link="kekkei-genkai" text="Kekkeigenkai" />,{" "}
-        <DocLink link="tailed-beasts" text="Tailed Beasts" />,{" "}
+        <DocLink link="kekkeigenkai" text="Kekkeigenkai" />,{" "}
+        <DocLink link="tailedbeasts" text="Tailed Beasts" />,{" "}
         <DocLink link="teams" text="Teams" />,{" "}
         <DocLink link="akatsuki" text="Akatsuki" />, and{" "}
         <DocLink link="kara" text="Kara" /> members from the most awesome anime
@@ -33,14 +33,16 @@ const MidSection = () => {
         designed to be easy to use and accessible to everyone, so you can start
         exploring the world of Naruto characters today.
       </p>
-      <button className="bg-orange-500 flex items-center gap-1 hover:bg-orange-600 text-white font-bold py-1 px-4 rounded mt-12">
-        <img
-          src="/leaf.png"
-          alt="leaf logo"
-          className="h-10 w-10 object-contain"
-        />
-        <p>Get Started</p>
-      </button>
+      <Link href="/docs">
+        <button className="bg-orange-500 flex items-center gap-1 hover:bg-orange-600 text-white font-bold py-1 px-4 rounded mt-12">
+          <img
+            src="/leaf.png"
+            alt="leaf logo"
+            className="h-10 w-10 object-contain"
+          />
+          <p>Get Started</p>
+        </button>
+      </Link>
     </div>
   );
 };

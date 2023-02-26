@@ -1,7 +1,7 @@
-import Head from "next/head";
 import CharacterRenderBox from "./CharacterRenderBox";
 import HeroSection from "./HeroSection";
 import MidSection from "./MidSection";
+import { Card } from "nextra-theme-docs";
 
 export const IndexPage = () => {
   return (

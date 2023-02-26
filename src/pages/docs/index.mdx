@@ -1,1 +1,34 @@
 # Introduction
+
+import { Card, Cards } from "nextra-theme-docs";
+import { introCards } from "@/constants/cards";
+import Image from "next/image";
+
+Welcome to the documentation for our Naruto API, which provides access to a wealth of information about the Naruto universe. This API is designed to be easy to use and provide developers with the ability to quickly and easily access data related to characters, clans, villages, kekkei genkai, tailed beasts, teams, Kara, and Akatsuki.
+
+Our API is perfect for developers who are creating applications, websites, or tools related to the Naruto universe. With the data provided by our API, you can create comprehensive guides, interactive games, or any other type of application that requires access to information related to Naruto.
+
+To get started, simply choose the endpoint that you are interested in from the list below, and review the documentation for that endpoint.
+
+We hope that you find our Naruto API useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {introCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      image
+      arrow
+      title={card.title}
+      href={card.href}
+    >
+        <img
+          src={card.image}
+          alt={`${card.title} preview`}
+          className="h-full w-full object-cover"
+        />
+    </Card>
+))}
+
+</Cards>

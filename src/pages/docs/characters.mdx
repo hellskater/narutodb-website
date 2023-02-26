@@ -1,3 +1,29 @@
-# Character Introduction
+# Characters
 
-This is the index page for characters
+import { Card, Cards } from "nextra-theme-docs";
+import { characterCards } from "@/constants/cards";
+
+The "/characters" endpoint provides access to information about individual characters from the Naruto universe. With this endpoint, you can retrieve details about a specific character, including their name, age, gender, occupation, abilities, and relationships with other characters.
+
+Our API contains information about a vast number of characters from the Naruto universe, including both major and minor characters. Whether you are interested in the legendary ninja like Naruto, Sasuke, and Kakshi or the lesser-known characters, our API can provide you with the data you need.
+
+The "/characters" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about specific characters, display character profiles, or build comprehensive character guides.
+
+To use the "/characters" endpoint, you can make a GET request to the appropriate URL with the character ID or name or any required params that are in the docs. The response will include all available information about that character in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/characters" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {characterCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>

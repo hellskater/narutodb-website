@@ -1,6 +1,0 @@
-{
-  "characterSchema": "Character Schema",
-  "getAllCharacters":"Get All Characters",
-  "getCharacterById":"Get Character by Id",
-  "searchCharacterById": "Search Character"
-}
