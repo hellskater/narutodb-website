@@ -12,8 +12,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
     "get": "^1.4.0",
+    "lodash": "^4.17.21",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",

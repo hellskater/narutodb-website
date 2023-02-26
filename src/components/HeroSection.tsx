@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="">
       <div className="h-[50vh] w-screen relative">
         <Image
-          src="/banner.jpg"
+          src="/banner.png"
           alt="naruto banner"
           fill
           className="h-full w-full object-cover opacity-40"

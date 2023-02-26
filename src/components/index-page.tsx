@@ -5,7 +5,7 @@ export const IndexPage = (props) => {
   return (
     <div className="min-h-screen font-naruto">
       <HeroSection />
-      {/* <CharacterRenderBox /> */}
+      <CharacterRenderBox />
     </div>
   );
 };
