@@ -9,13 +9,14 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 export default function MultiActionAreaCard(props) {
   const { characterData } = props;
-
-  const imageUrl = `${get(characterData,['images',0]).split('.png')[0]}.png`
+  const imageUrl = `${get(characterData,['images',0],'').split('.png')[0]}.png`
   const status = get(characterData,['personal','status'],false)
-  console.log('STATUS',characterData.personal)
+  console.log('STATUS',imageUrl)
   return (
-    <Card sx={{ maxWidth: 450, minWidth: 330 }}>
-      <CardActionArea>
+    <Card sx={{ maxWidth: 450, minWidth: 330, fontFamily:'Naruto' }}
+    elevation={4}
+    >
+      <CardActionArea onClick={() => window.open(`https://narutodb.cyclic.app/character/${characterData.id}`,'_blank')}>
         <CardMedia
         sx={{
           maxHeight: '8rem',
@@ -23,28 +24,38 @@ export default function MultiActionAreaCard(props) {
         }}
           component="img"
           height="140"
-          image={imageUrl || 'https://images5.alphacoders.com/413/413842.jpg'}
+          image={imageUrl || 'https://c4.wallpaperflare.com/wallpaper/738/62/544/naruto-chidori-naruto-naruto-uzumaki-rasengan-naruto-sasuke-uchiha-hd-wallpaper-preview.png'}
           alt="Character Image"
-        />
+          />
         <CardContent>
-          <Typography  variant="h5" component="div">
+          <Typography  variant="body2" color='text.secondary' component="div" sx={{
+            fontFamily:'Naruto',
+            wordSpacing: '0.5rem'
+          }}>
              {characterData?.name || '-'}
       </Typography>
           {status === 'Deceased' ? <>
           <FiberManualRecordIcon color='error' fontSize='small' />
-          <Typography gutterBottom variant="caption">
+          <Typography gutterBottom color='text.secondary' variant="caption" sx={{
+            fontFamily:'Naruto',
+
+          }}>
             Dead
           </Typography>
           </>
           :
           <>
-          <FiberManualRecordIcon color='error' fontSize='small' />
-          <Typography gutterBottom variant="caption">
+          <FiberManualRecordIcon color='success' fontSize='small' />
+          <Typography gutterBottom variant="caption" color='text.secondary' sx={{
+            fontFamily:'Naruto'
+          }}>
             Alive
           </Typography>
           </>
          }
-          <Typography gutterBottom variant="body2" component="div">
+          <Typography gutterBottom variant="caption" color='text.secondary' component="div" sx={{
+            fontFamily:'Naruto'
+          }}>
             Clan: {characterData?.personal?.clan || '-'}
           </Typography>
         </CardContent>

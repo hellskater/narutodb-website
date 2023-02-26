@@ -19,7 +19,7 @@ export default function MultiActionAreaCard(props) {
             gap: '16px',
             overflow: 'hidden',
             justifyContent: 'center',
-            backgroundColor:'rgb(249 145 1)',
+            backgroundColor:'#F97316',
             padding: '3rem'
         }}>
           {(randomCharacters || []).map((characterData, index) =>

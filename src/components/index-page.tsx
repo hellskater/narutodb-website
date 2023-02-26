@@ -1,9 +1,11 @@
-import CharacterRenderBox from './CharacterRenderBox';
-import HeroSection from './HeroSection';
+import CharacterRenderBox from "./CharacterRenderBox";
+import HeroSection from "./HeroSection";
 
-export const IndexPage = () => {
-  return <div className="h-screen w-screen flex justify-center items-center">
-    {/* <HeroSection /> */}
-    <CharacterRenderBox />
-  </div>;
+export const IndexPage = (props) => {
+  return (
+    <div className="min-h-screen font-naruto">
+      <HeroSection />
+      <CharacterRenderBox />
+    </div>
+  );
 };
