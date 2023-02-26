@@ -2,6 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import Logo from "@/components/Logo";
 import Head from "next/head";
+import FooterSection from "@/components/FooterSection";
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
@@ -12,15 +13,9 @@ const config: DocsThemeConfig = {
     "https://github.com/hellskater/narutodb-website/blob/master",
   footer: {
     text: "NarutoDB",
+    component: <FooterSection />
   },
   primaryHue: 29,
-  head: () => {
-    return (
-      <Head>
-        <title>NarutoDB</title>
-      </Head>
-    );
-  },
 };
 
 export default config;
