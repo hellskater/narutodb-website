@@ -11,7 +11,7 @@ export default function MultiActionAreaCard(props) {
   const { characterData } = props;
   const imageUrl = `${get(characterData,['images',0],'').split('.png')[0]}.png`
   const status = get(characterData,['personal','status'],false)
-  console.log('STATUS',imageUrl)
+
   return (
     <Card sx={{ maxWidth: 450, minWidth: 330, fontFamily:'Naruto' }}
     elevation={4}
