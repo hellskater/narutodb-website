@@ -1,8 +1,14 @@
 import { useTheme } from "next-themes";
 import { Typography } from "@mui/material";
+import { useEffect, useState } from "react";
 
 const FooterSection = () => {
   const { resolvedTheme } = useTheme();
+  const [lightMode, setLightMode] = useState(false);
+
+  useEffect(() => {
+    setLightMode(resolvedTheme === "light" ? true : false);
+  }, [resolvedTheme]);
 
   return (
     <div className="flex flex-col border-t-[1px] dark:border-[#282828] items-center justify-center py-10 bg-[#f3f4f6] dark:bg-[#171717]">
@@ -11,7 +17,7 @@ const FooterSection = () => {
           <a href="https://vercel.com/" target="_blank">
             <div className="flex gap-1">
               <svg
-                fill={resolvedTheme === "light" ? "#000000" : "#FFFFFF"}
+                fill={lightMode ? "#000000" : "#FFFFFF"}
                 width="50px"
                 height="50px"
                 viewBox="0 0 512 512"
@@ -24,7 +30,7 @@ const FooterSection = () => {
                   variant="body2"
                   sx={{
                     fontWeight: "400",
-                    color: resolvedTheme === "light" ? "#000000" : "#FFFFFF",
+                    color: lightMode ? "#000000" : "#FFFFFF",
                   }}
                   noWrap
                 >
@@ -36,7 +42,7 @@ const FooterSection = () => {
                     fontWeight: "700",
                     lineHeight: 1,
                     fontSize: "1.55rem",
-                    color: resolvedTheme === "light" ? "#000000" : "#FFFFFF",
+                    color: lightMode ? "#000000" : "#FFFFFF",
                   }}
                 >
                   Vercel
@@ -53,7 +59,7 @@ const FooterSection = () => {
               <svg
                 height="45"
                 viewBox="0 0 70 70"
-                fill={resolvedTheme === "light" ? "#000000" : "#FFFFFF"}
+                fill={lightMode ? "#000000" : "#FFFFFF"}
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -68,7 +74,7 @@ const FooterSection = () => {
                   variant="body2"
                   sx={{
                     fontWeight: "400",
-                    color: resolvedTheme === "light" ? "#000000" : "#FFFFFF",
+                    color: lightMode ? "#000000" : "#FFFFFF",
                   }}
                   noWrap
                 >
@@ -80,7 +86,7 @@ const FooterSection = () => {
                     fontWeight: "700",
                     lineHeight: 1,
                     fontSize: "1.55rem",
-                    color: resolvedTheme === "light" ? "#000000" : "#FFFFFF",
+                    color: lightMode ? "#000000" : "#FFFFFF",
                   }}
                 >
                   nextra
