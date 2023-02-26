@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react";
-import CharacterBox from "./CharacterBox";
-import Box from "@mui/material/Box";
-import { characters } from "../constants/characters";
-import { generateRandomCharacters } from "../utils/naruto_utils";
-export default function MultiActionAreaCard(props) {
-  const { data } = props;
-  const [randomCharacters, setRandomCharacters] = useState([]);
-  console.log("CHARACTERS:", randomCharacters);
+import { useState, useEffect } from 'react';
+import CharacterBox from './CharacterBox';
+import Box from '@mui/material/Box'
+import { characters } from '../constants/characters'
+import { generateRandomCharacters } from '../utils/naruto_utils'
+export default function CharacterRenderBox() {
 
-  useEffect(() => {
-    generateRandomCharacters({ characters, setRandomCharacters, limit: 6 });
-  }, []);
+  const [randomCharacters, setRandomCharacters] = useState([])
+
+  useEffect(
+    ()=>{
+     generateRandomCharacters({characters,setRandomCharacters, limit: 6})
+  },[])
 
   return (
     <Box
