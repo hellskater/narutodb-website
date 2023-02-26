@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
     "https://github.com/hellskater/narutodb-website/blob/master",
   footer: {
     text: "NarutoDB",
-    component: <FooterSection />
+    component: <FooterSection />,
   },
   primaryHue: 29,
   useNextSeoProps() {
