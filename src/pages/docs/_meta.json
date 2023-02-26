@@ -1,11 +1,11 @@
 {
   "index": "Introduction",
-  "character": "Character",
+  "characters": "Characters",
   "clans": "Clans",
   "kara": "Kara",
   "kekkeigenkai": "Kekkeigenkai",
-  "tailedbeasts":"Tailed Beasts",
+  "tailedbeasts": "Tailed Beasts",
   "teams": "Teams",
-  "villages":"Villages",
-  "akatsuki":"Akatsuki"
+  "villages": "Villages",
+  "akatsuki": "Akatsuki"
 }
