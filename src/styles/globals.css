@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Naruto";
+    src: url("/njnaruto.ttf");
+  }
+
+  html {
+    font-family: "Naruto";
+  }
+}
