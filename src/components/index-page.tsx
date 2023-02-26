@@ -4,10 +4,10 @@ import MidSection from "./MidSection";
 
 export const IndexPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col gap-20 lg:gap-32">
       <HeroSection />
       <MidSection />
-      {/* <CharacterRenderBox /> */}
+      <CharacterRenderBox />
     </div>
   );
 };
