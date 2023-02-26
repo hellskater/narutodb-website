@@ -1,10 +1,12 @@
 import CharacterRenderBox from "./CharacterRenderBox";
 import HeroSection from "./HeroSection";
+import MidSection from "./MidSection";
 
-export const IndexPage = (props) => {
+export const IndexPage = () => {
   return (
-    <div className="min-h-screen font-naruto">
+    <div className="flex flex-col gap-20 lg:gap-32">
       <HeroSection />
+      <MidSection />
       <CharacterRenderBox />
     </div>
   );
