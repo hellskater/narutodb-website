@@ -1,8 +1,9 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Logo from "@/components/Logo";
 
 const config: DocsThemeConfig = {
-  logo: <span>NarutoDB</span>,
+  logo: <Logo />,
   project: {
     link: "https://github.com/hellskater/narutodb-docs",
   },
@@ -10,6 +11,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: "NarutoDB",
   },
+  primaryHue: 29,
 };
 
 export default config;
