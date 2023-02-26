@@ -41,6 +41,7 @@ const config: DocsThemeConfig = {
   navbar: {
     extraContent: <ThemeSwitch />,
   },
+  darkMode: false,
   head: () => {
     return (
       <>
