@@ -4,6 +4,9 @@ import Logo from "@/components/Logo";
 import Head from "next/head";
 
 const config: DocsThemeConfig = {
+  chat: {
+    link: "https://discord.gg/srini53168#3628",
+  },
   logo: <Logo />,
   project: {
     link: "https://github.com/hellskater/narutodb-website",
@@ -14,13 +17,6 @@ const config: DocsThemeConfig = {
     text: "NarutoDB",
   },
   primaryHue: 29,
-  head: () => {
-    return (
-      <Head>
-        <title>NarutoDB</title>
-      </Head>
-    );
-  },
 };
 
 export default config;
