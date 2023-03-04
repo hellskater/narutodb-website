@@ -7,8 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"prepare": "husky install",
-		"lint": "tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx",
-		"lint:fix": "tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx --fix",
+		"lint": "yarn tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx",
+		"lint:fix": "yarn tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx --fix",
 		"format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write"
 	},
 	"author": "K Srinivas Rao, Millan Sharma",

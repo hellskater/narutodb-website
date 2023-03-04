@@ -1,17 +1,17 @@
-import React from 'react'
-import { DocsThemeConfig, ThemeSwitch } from 'nextra-theme-docs'
-import Logo from '@/components/Logo'
-import FooterSection from '@/components/FooterSection'
+import React from 'react';
+import { DocsThemeConfig, ThemeSwitch } from 'nextra-theme-docs';
+import FooterSection from '@/components/FooterSection';
+import Logo from '@/components/Logo';
 
 const config: DocsThemeConfig = {
 	logo: <Logo />,
 	project: {
-		link: 'https://github.com/hellskater/narutodb-website'
+		link: 'https://github.com/hellskater/narutodb-website',
 	},
 	docsRepositoryBase: 'https://github.com/hellskater/narutodb-website/blob/master',
 	footer: {
 		text: 'NarutoDB',
-		component: <FooterSection />
+		component: <FooterSection />,
 	},
 	primaryHue: 29,
 	useNextSeoProps() {
@@ -29,24 +29,22 @@ const config: DocsThemeConfig = {
 						url: 'https://images.freeimages.com/fic/images/icons/1275/naruto_vol_1/256/uzumaki_naruto.png',
 						width: 800,
 						height: 600,
-						alt: 'NarutoDB Logo'
-					}
-				]
-			}
-		}
+						alt: 'NarutoDB Logo',
+					},
+				],
+			},
+		};
 	},
 	navbar: {
-		extraContent: <ThemeSwitch />
+		extraContent: <ThemeSwitch />,
 	},
 	darkMode: false,
-	head: () => {
-		return (
-			<>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<link rel="icon" type="image/jpg" sizes="32x32" href="/logo.png" />
-			</>
-		)
-	}
-}
+	head: () => (
+		<>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link rel="icon" type="image/jpg" sizes="32x32" href="/logo.png" />
+		</>
+	),
+};
 
-export default config
+export default config;
