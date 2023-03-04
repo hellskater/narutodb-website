@@ -27,7 +27,7 @@ export const generateRandomCharacters = (params: {
 			character =>
 				get(character, ['images', 'length'], 0) > 0 &&
 				get(character, ['personal', 'clan'], null) &&
-				get(character, ['personal', 'status'], null)
+				get(character, ['personal', 'status'], null),
 		);
 
 		const randomSixCharacter = sampleSize(newCharacterArray, limit);

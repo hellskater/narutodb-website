@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 function HeroSection() {
 	return (
@@ -19,7 +19,7 @@ function HeroSection() {
 				</div>
 			</div>
 		</div>
-	)
+	);
 }
 
-export default HeroSection
+export default HeroSection;

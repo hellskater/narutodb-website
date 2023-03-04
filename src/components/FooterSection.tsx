@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react'
-import { Typography } from '@mui/material'
-import { useTheme } from 'next-themes'
+import { useEffect, useState } from 'react';
+import { Typography } from '@mui/material';
+import { useTheme } from 'next-themes';
 
 function FooterSection() {
-	const { resolvedTheme } = useTheme()
-	const [lightMode, setLightMode] = useState(false)
+	const { resolvedTheme } = useTheme();
+	const [lightMode, setLightMode] = useState(false);
 
 	useEffect(() => {
-		setLightMode(resolvedTheme === 'light')
-	}, [resolvedTheme])
+		setLightMode(resolvedTheme === 'light');
+	}, [resolvedTheme]);
 
 	return (
 		<div className="flex flex-col items-center justify-center border-t-[1px] bg-[#f3f4f6] py-10 dark:border-[#282828] dark:bg-[#171717]">
@@ -30,7 +30,7 @@ function FooterSection() {
 									variant="body2"
 									sx={{
 										fontWeight: '400',
-										color: lightMode ? '#000000' : '#FFFFFF'
+										color: lightMode ? '#000000' : '#FFFFFF',
 									}}
 									noWrap
 								>
@@ -42,7 +42,7 @@ function FooterSection() {
 										fontWeight: '700',
 										lineHeight: 1,
 										fontSize: '1.55rem',
-										color: lightMode ? '#000000' : '#FFFFFF'
+										color: lightMode ? '#000000' : '#FFFFFF',
 									}}
 								>
 									Vercel
@@ -74,7 +74,7 @@ function FooterSection() {
 									variant="body2"
 									sx={{
 										fontWeight: '400',
-										color: lightMode ? '#000000' : '#FFFFFF'
+										color: lightMode ? '#000000' : '#FFFFFF',
 									}}
 									noWrap
 								>
@@ -86,7 +86,7 @@ function FooterSection() {
 										fontWeight: '700',
 										lineHeight: 1,
 										fontSize: '1.55rem',
-										color: lightMode ? '#000000' : '#FFFFFF'
+										color: lightMode ? '#000000' : '#FFFFFF',
 									}}
 								>
 									nextra
@@ -117,6 +117,6 @@ function FooterSection() {
 				</a>
 			</div>
 		</div>
-	)
+	);
 }
-export default FooterSection
+export default FooterSection;

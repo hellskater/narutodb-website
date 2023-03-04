@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import DocLink from './DocLink'
+import Image from 'next/image';
+import Link from 'next/link';
+import DocLink from './DocLink';
 
 function MidSection() {
 	return (
@@ -41,7 +41,7 @@ function MidSection() {
 				</button>
 			</Link>
 		</div>
-	)
+	);
 }
 
-export default MidSection
+export default MidSection;

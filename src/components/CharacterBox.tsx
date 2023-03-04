@@ -1,39 +1,39 @@
-import * as React from 'react'
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord'
-import { CardActionArea } from '@mui/material'
-import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import Typography from '@mui/material/Typography'
-import get from 'lodash/get'
+import * as React from 'react';
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+import { CardActionArea } from '@mui/material';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import get from 'lodash/get';
 
 type Props = {
 	characterData: {
-		id: string
-		name: string
-		images: string[]
+		id: string;
+		name: string;
+		images: string[];
 		personal: {
-			status: string
-			clan: string
-	}
-}}
+			status: string;
+			clan: string;
+		};
+	};
+};
 
-export default function MultiActionAreaCard({characterData}: Props) {
-	
-	const status = get(characterData, ['personal', 'status'], false)
+export default function MultiActionAreaCard({ characterData }: Props) {
+	const status = get(characterData, ['personal', 'status'], false);
 
 	const getResolvedImageUrl = () => {
-		let imageURL = ''
+		let imageURL = '';
 		if (get(characterData, ['images', 0], '').includes('.png')) {
-			imageURL = `${get(characterData, ['images', 0], '').split('.png')[0]}.png`
-			return imageURL
+			imageURL = `${get(characterData, ['images', 0], '').split('.png')[0]}.png`;
+			return imageURL;
 		}
 		if (get(characterData, ['images', 0], '').includes('.jpg')) {
-			imageURL = `${get(characterData, ['images', 0], '').split('.jpg')[0]}.jpg`
-			return imageURL
+			imageURL = `${get(characterData, ['images', 0], '').split('.jpg')[0]}.jpg`;
+			return imageURL;
 		}
-		return false
-	}
+		return false;
+	};
 
 	return (
 		<Card sx={{ maxWidth: 450, minWidth: 330, fontFamily: 'Naruto' }} elevation={4}>
@@ -41,14 +41,14 @@ export default function MultiActionAreaCard({characterData}: Props) {
 				onClick={() =>
 					window.open(
 						`https://narutodb.cyclic.app/character/${characterData.id}`,
-						'_blank'
+						'_blank',
 					)
 				}
 			>
 				<CardMedia
 					sx={{
 						maxHeight: '8rem',
-						minWidth: '16rem'
+						minWidth: '16rem',
 					}}
 					component="img"
 					height="140"
@@ -65,7 +65,7 @@ export default function MultiActionAreaCard({characterData}: Props) {
 						component="div"
 						sx={{
 							fontFamily: 'Naruto',
-							wordSpacing: '0.5rem'
+							wordSpacing: '0.5rem',
 						}}
 					>
 						{characterData?.name || '-'}
@@ -78,7 +78,7 @@ export default function MultiActionAreaCard({characterData}: Props) {
 								color="text.secondary"
 								variant="caption"
 								sx={{
-									fontFamily: 'Naruto'
+									fontFamily: 'Naruto',
 								}}
 							>
 								Dead
@@ -92,7 +92,7 @@ export default function MultiActionAreaCard({characterData}: Props) {
 								variant="caption"
 								color="text.secondary"
 								sx={{
-									fontFamily: 'Naruto'
+									fontFamily: 'Naruto',
 								}}
 							>
 								Alive
@@ -105,7 +105,7 @@ export default function MultiActionAreaCard({characterData}: Props) {
 						color="text.secondary"
 						component="div"
 						sx={{
-							fontFamily: 'Naruto'
+							fontFamily: 'Naruto',
 						}}
 					>
 						Clan: {characterData?.personal?.clan || '-'}
@@ -113,5 +113,5 @@ export default function MultiActionAreaCard({characterData}: Props) {
 				</CardContent>
 			</CardActionArea>
 		</Card>
-	)
+	);
 }

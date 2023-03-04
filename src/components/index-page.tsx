@@ -1,6 +1,6 @@
-import CharacterRenderBox from './CharacterRenderBox'
-import HeroSection from './HeroSection'
-import MidSection from './MidSection'
+import CharacterRenderBox from './CharacterRenderBox';
+import HeroSection from './HeroSection';
+import MidSection from './MidSection';
 
 function IndexPage() {
 	return (
@@ -9,7 +9,7 @@ function IndexPage() {
 			<MidSection />
 			<CharacterRenderBox />
 		</div>
-	)
+	);
 }
 
-export default IndexPage
+export default IndexPage;

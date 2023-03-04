@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react'
-import Box from '@mui/material/Box'
-import { characters } from '../constants/characters'
-import { generateRandomCharacters } from '../utils/naruto_utils'
-import CharacterBox from './CharacterBox'
+import { useState, useEffect } from 'react';
+import Box from '@mui/material/Box';
+import { characters } from '../constants/characters';
+import { generateRandomCharacters } from '../utils/naruto_utils';
+import CharacterBox from './CharacterBox';
 
 export default function CharacterRenderBox() {
-	const [randomCharacters, setRandomCharacters] = useState([])
+	const [randomCharacters, setRandomCharacters] = useState([]);
 
 	useEffect(() => {
-		generateRandomCharacters({ characters, setRandomCharacters, limit: 6 })
-	}, [])
+		generateRandomCharacters({ characters, setRandomCharacters, limit: 6 });
+	}, []);
 
 	return (
 		<Box
@@ -20,12 +20,12 @@ export default function CharacterRenderBox() {
 				overflow: 'hidden',
 				justifyContent: 'center',
 				backgroundColor: '#F97316',
-				padding: '3rem'
+				padding: '3rem',
 			}}
 		>
 			{(randomCharacters || []).map((characterData, index) => (
 				<CharacterBox key={characterData?.id || index} characterData={characterData} />
 			))}
 		</Box>
-	)
+	);
 }
