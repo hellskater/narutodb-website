@@ -1,1 +1,29 @@
 # Akatsuki
+
+import { Card, Cards } from 'nextra-theme-docs';
+import { akatsukiCards } from '@/constants/cards';
+
+The "/akatsuki" endpoint provides access to information about the notorious criminal organization in the Naruto universe, the Akatsuki. With this endpoint, you can retrieve details about the Akatsuki members.
+
+Our API contains information about all the members of the Akatsuki, including their names, abilities, and positions within the organization. Whether you are interested in the Akatsuki's ultimate goal or the individual members' motivations, our API can provide you with the data you need.
+
+The "/akatsuki" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about the Akatsuki, display member profiles, or build comprehensive guides to the organization.
+
+To use the "/akatsuki" endpoint, you can make a GET request to the appropriate URL with the Akatsuki ID or name or any required params that are in the docs. The response will include all available information about the Akatsuki in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/akatsuki" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {akatsukiCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>

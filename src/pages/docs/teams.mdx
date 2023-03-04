@@ -1,1 +1,29 @@
 # Teams
+
+import { Card, Cards } from 'nextra-theme-docs';
+import { teamCards } from '@/constants/cards';
+
+The "/team" endpoint provides access to information about the various ninja teams in the Naruto universe. With this endpoint, you can retrieve details about a specific team, like its name and members.
+
+Our API contains information about many ninja teams in the Naruto universe, including both major and minor teams. Whether you are interested in the powerful Team 7 or the lesser-known teams, our API can provide you with the data you need.
+
+The "/team" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about specific ninja teams, display team profiles, or build comprehensive team guides.
+
+To use the "/team" endpoint, you can make a GET request to the appropriate URL with the team ID or name or any required params that are in the docs. The response will include all available information about that team in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/team" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {teamCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>
