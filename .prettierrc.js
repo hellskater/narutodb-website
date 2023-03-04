@@ -8,7 +8,6 @@ module.exports = {
 	bracketSpacing: true,
 	bracketSameLine: false,
 	singleQuote: true,
-	importOrderSortSpecifiers: true,
 	plugins: [
 		'prettier-plugin-tailwindcss' // MUST come last
 	],
