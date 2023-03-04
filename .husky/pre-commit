@@ -3,5 +3,6 @@
 
 echo '🏗️👷 Styling and testing your project before committing'
 
+
 yarn lint:fix
 yarn format
