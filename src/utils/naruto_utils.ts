@@ -1,23 +1,39 @@
-import get from 'lodash/get'
-import sampleSize from 'lodash/sampleSize'
-export const generateRandomCharacters = (
-    params :{ setRandomCharacters: (arr:any)=>void, characters:any[], limit:number}) => {
-    const {
-        setRandomCharacters, characters, limit
-    } = params;
-    console.log(params);
-    try{
-        var newCharacterArray = characters.filter((character) => {
-            return get(character,['images','length'],0) > 0 &&
-                   get(character,['personal','clan'],null) &&
-                   get(character,['personal','status'],null)
-          }); 
+/* eslint-disable import/prefer-default-export */
+import get from 'lodash/get';
+import sampleSize from 'lodash/sampleSize';
 
-          const randomSixCharacter = sampleSize(newCharacterArray, limit)
-          setRandomCharacters(randomSixCharacter);
+export const generateRandomCharacters = (params: {
+	setRandomCharacters: (arr: {
+		images: string[];
+		personal: {
+			clan: string;
+			status: string;
+		};
+	}) => void;
 
-    }
-    catch{
-        console.log('Could not find characters')
-    }
-}
+	characters: {
+		images: string[];
+		personal: {
+			clan: string;
+			status: string;
+		};
+	}[];
+
+	limit: number;
+}) => {
+	const { setRandomCharacters, characters, limit } = params;
+	try {
+		const newCharacterArray = characters.filter(
+			character =>
+				get(character, ['images', 'length'], 0) > 0 &&
+				get(character, ['personal', 'clan'], null) &&
+				get(character, ['personal', 'status'], null)
+		);
+
+		const randomSixCharacter = sampleSize(newCharacterArray, limit);
+		setRandomCharacters(randomSixCharacter);
+	} catch {
+		// eslint-disable-next-line no-console
+		console.log('Could not find characters');
+	}
+};

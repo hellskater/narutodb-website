@@ -6,3 +6,4 @@ node_modules
 next-env.d.ts
 next.config.ts
 yarn.lock
+src/constants/characters.ts
