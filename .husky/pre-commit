@@ -1,6 +1,13 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+branch=`git symbolic-ref HEAD`
+
+if [ "$branch" = "refs/heads/master" ]; then
+    echo "\\033[31mDirect commit to master is not allowed.\\033[0m"
+    exit 1
+fi
+
 echo '🏗️👷 Styling and testing your project before committing'
 
 
