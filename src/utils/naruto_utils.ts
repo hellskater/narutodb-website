@@ -1,23 +1,12 @@
 /* eslint-disable import/prefer-default-export */
 import get from 'lodash/get';
 import sampleSize from 'lodash/sampleSize';
+import { Character } from '@/types/utils';
 
 export const generateRandomCharacters = (params: {
-	setRandomCharacters: (arr: {
-		images: string[];
-		personal: {
-			clan: string;
-			status: string;
-		};
-	}) => void;
+	setRandomCharacters: (arr: Character[]) => void;
 
-	characters: {
-		images: string[];
-		personal: {
-			clan: string;
-			status: string;
-		};
-	}[];
+	characters: Character[];
 
 	limit: number;
 }) => {

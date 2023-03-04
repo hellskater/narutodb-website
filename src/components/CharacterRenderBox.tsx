@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
+import { Character } from '@/types/utils';
 import { characters } from '../constants/characters';
 import { generateRandomCharacters } from '../utils/naruto_utils';
 import CharacterBox from './CharacterBox';
 
 export default function CharacterRenderBox() {
-	const [randomCharacters, setRandomCharacters] = useState([]);
+	const [randomCharacters, setRandomCharacters] = useState<Character[]>([]);
 
 	useEffect(() => {
 		generateRandomCharacters({ characters, setRandomCharacters, limit: 6 });
