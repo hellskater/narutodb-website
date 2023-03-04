@@ -1,5 +1,5 @@
 export interface Character {
-    name: string;
+	name: string;
 	images: string[];
 	personal: {
 		clan: string;
