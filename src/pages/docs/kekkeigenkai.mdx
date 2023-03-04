@@ -1,1 +1,29 @@
 # Kekkeigenkai
+
+import { Card, Cards } from 'nextra-theme-docs';
+import { kekkeiGenkaiCards } from '@/constants/cards';
+
+The "/kekkei-genkai" endpoint provides access to information about the various Kekkei Genkai abilities in the Naruto universe. With this endpoint, you can retrieve details about a specific Kekkei Genkai, like its name and all the users.
+
+Our API contains information about a vast number of Kekkei Genkai abilities from the Naruto universe, including both major and minor abilities. Whether you are interested in the powerful Sharingan or the lesser-known abilities, our API can provide you with the data you need.
+
+The "/kekkei-genkai" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about specific Kekkei Genkai abilities, display ability profiles, or build comprehensive ability guides.
+
+To use the "/kekkei-genkai" endpoint, you can make a GET request to the appropriate URL with the Kekkei Genkai ID or name or any required params that are in the docs. The response will include all available information about that Kekkei Genkai in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/kekkei-genkai" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {kekkeiGenkaiCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>

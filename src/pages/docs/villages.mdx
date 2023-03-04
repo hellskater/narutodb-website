@@ -1,1 +1,29 @@
 # Villages
+
+import { Card, Cards } from 'nextra-theme-docs';
+import { villageCards } from '@/constants/cards';
+
+The "/village" endpoint provides access to information about the various ninja villages in the Naruto universe. With this endpoint, you can retrieve details about a specific village, like its name and notable shinobi.
+
+Our API contains information about many ninja villages in the Naruto universe, including both major and minor villages. Whether you are interested in the powerful Hidden Leaf Village or the lesser-known villages, our API can provide you with the data you need.
+
+The "/village" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about specific ninja villages, display village profiles, or build comprehensive village guides.
+
+To use the "/village" endpoint, you can make a GET request to the appropriate URL with the village ID or name or any required params that are in the docs. The response will include all available information about that village in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/village" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {villageCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>

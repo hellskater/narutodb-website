@@ -59,3 +59,136 @@ export const characterCards = [
 		href: '/docs/characters/searchCharacterByName',
 	},
 ];
+
+export const clanCards = [
+	{
+		title: 'Clan Schema',
+		href: '/docs/clans/clanSchema',
+	},
+	{
+		title: 'Get All Clans',
+		href: '/docs/clans/getAllClans',
+	},
+	{
+		title: 'Get Clan by ID',
+		href: '/docs/clans/getClanById',
+	},
+	{
+		title: 'Search Clan',
+		href: '/docs/clans/searchClan',
+	},
+];
+
+export const karaCards = [
+	{
+		title: 'Kara Schema',
+		href: '/docs/kara/karaSchema',
+	},
+	{
+		title: 'Get All Kara',
+		href: '/docs/kara/getAllKara',
+	},
+	{
+		title: 'Get Kara by ID',
+		href: '/docs/kara/getKaraById',
+	},
+	{
+		title: 'Search Kara',
+		href: '/docs/kara/searchKara',
+	},
+];
+
+export const kekkeiGenkaiCards = [
+	{
+		title: 'Kekkei Genkai Schema',
+		href: '/docs/kekkeigenkai/kekkeigenkaiSchema',
+	},
+	{
+		title: 'Get All Kekkei Genkai',
+		href: '/docs/kekkeigenkai/getAllKekkeigenkai',
+	},
+	{
+		title: 'Get Kekkei Genkai by ID',
+		href: '/docs/kekkeigenkai/getKekkeigenkaiById',
+	},
+	{
+		title: 'Search Kekkei Genkai',
+		href: '/docs/kekkeigenkai/searchKekkeigenkai',
+	},
+];
+
+export const tailedBeastCards = [
+	{
+		title: 'Tailed Beast Schema',
+		href: '/docs/tailedbeasts/tailedBeastsSchema',
+	},
+	{
+		title: 'Get All Tailed Beasts',
+		href: '/docs/tailedbeasts/getAllTailedBeasts',
+	},
+	{
+		title: 'Get Tailed Beast by ID',
+		href: '/docs/tailedbeasts/getTailedBeastById',
+	},
+	{
+		title: 'Search Tailed Beast',
+		href: '/docs/tailedbeasts/searchTailedBeast',
+	},
+];
+
+export const teamCards = [
+	{
+		title: 'Team Schema',
+		href: '/docs/teams/teamSchema',
+	},
+	{
+		title: 'Get All Teams',
+		href: '/docs/teams/getAllTeams',
+	},
+	{
+		title: 'Get Team by ID',
+		href: '/docs/teams/getTeamById',
+	},
+	{
+		title: 'Search Team',
+		href: '/docs/teams/searchTeam',
+	},
+];
+
+export const villageCards = [
+	{
+		title: 'Village Schema',
+		href: '/docs/villages/villageSchema',
+	},
+	{
+		title: 'Get All Villages',
+		href: '/docs/villages/getAllVillages',
+	},
+	{
+		title: 'Get Village by ID',
+		href: '/docs/villages/getVillageById',
+	},
+	{
+		title: 'Search Village',
+		href: '/docs/villages/searchVillage',
+	},
+];
+
+export const akatsukiCards = [
+	{
+		title: 'Akatsuki Schema',
+		href: '/docs/akatsuki/akatsukiSchema',
+	},
+	{
+		title: 'Get All Akatsuki',
+		href: '/docs/akatsuki/getAllAkatsuki',
+	},
+	{
+		title: 'Get Akatsuki by ID',
+		href: '/docs/akatsuki/getAkatsukiById',
+	},
+	{
+		title: 'Search Akatsuki',
+		href: '/docs/akatsuki/searchAkatsuki',
+	},
+];
