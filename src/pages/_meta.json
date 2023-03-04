@@ -15,14 +15,14 @@
 		"title": "About",
 		"type": "page"
 	},
+	"support": {
+		"title": "Support Us",
+		"type": "page"
+	},
 	"contact": {
 		"title": "Contact ↗",
 		"type": "page",
 		"href": "https://twitter.com/Srinu53168",
 		"newWindow": true
-	},
-	"support": {
-		"title": "Support Us",
-		"type": "page"
 	}
 }
