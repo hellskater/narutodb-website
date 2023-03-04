@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.narutodb.xyz/</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/about</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/support</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/characters</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/characters/characterSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/characters/getAllCharacters</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/characters/getCharacterById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/characters/searchCharacterByName</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/clans</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/clans/getAllClans</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/clans/getClanById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/clans/searchClan</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kara</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kara/karaSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kara/getAllKara</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kara/getKaraById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kara/searchKara</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kekkeigenkai</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kekkeigenkai/kekkeigenkaiSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kekkeigenkai/getAllKekkeigenkai</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kekkeigenkai/getKekkeigenkaiById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/kekkeigenkai/searchKekkeigenkai</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/tailedbeasts</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/tailedbeasts/tailedBeastsSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/tailedbeasts/getAllTailedBeasts</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/tailedbeasts/getTailedBeastById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/tailedbeasts/searchTailedBeast</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/teams</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/teams/getAllTeams</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/teams/getTeamById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/teams/searchTeam</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/villages</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/villages/getAllVillages</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/villages/getVillageById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/villages/searchVillage</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/akatsuki</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/akatsuki/akatsukiSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/akatsuki/getAllAkatsuki</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/clans/clanSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/teams/teamSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/villages/villageSchema</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/akatsuki/getAkatsukiById</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.narutodb.xyz/docs/akatsuki/searchAkatsuki</loc>
+  <lastmod>2023-03-04T14:21:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
