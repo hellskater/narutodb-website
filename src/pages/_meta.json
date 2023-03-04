@@ -20,5 +20,9 @@
 		"type": "page",
 		"href": "https://twitter.com/Srinu53168",
 		"newWindow": true
+	},
+	"support": {
+		"title": "Support Us",
+		"type": "page"
 	}
 }
