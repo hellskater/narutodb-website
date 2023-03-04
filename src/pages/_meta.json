@@ -13,16 +13,16 @@
 	},
 	"about": {
 		"title": "About",
-		"type": "page"
+		"type": "page",
+		"theme": {
+			"typesetting": "article"
+		}
 	},
 	"support": {
 		"title": "Support Us",
-		"type": "page"
-	},
-	"contact": {
-		"title": "Contact ↗",
 		"type": "page",
-		"href": "https://twitter.com/Srinu53168",
-		"newWindow": true
+		"theme": {
+			"typesetting": "article"
+		}
 	}
 }
