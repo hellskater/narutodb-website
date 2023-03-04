@@ -1,32 +1,53 @@
 {
-  "name": "narutodb-docs",
-  "version": "0.0.1",
-  "description": "NarutoDB Documentation",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "author": "K Srinivas Rao, Millan Sharma",
-  "license": "MIT",
-  "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@mui/icons-material": "^5.11.9",
-    "@mui/material": "^5.11.10",
-    "get": "^1.4.0",
-    "lodash": "^4.17.21",
-    "next": "^13.0.6",
-    "nextra": "^2.2.16",
-    "nextra-theme-docs": "^2.2.16",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.11.10",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.6",
-    "typescript": "^4.9.3"
-  }
+	"name": "narutodb-docs",
+	"version": "0.0.1",
+	"description": "NarutoDB Documentation",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"prepare": "husky install",
+		"lint": "yarn tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx",
+		"lint:fix": "yarn tsc --noEmit && eslint src --ext .js,.jsx,.ts,.tsx --fix",
+		"format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write"
+	},
+	"author": "K Srinivas Rao, Millan Sharma",
+	"license": "MIT",
+	"dependencies": {
+		"@emotion/react": "^11.10.6",
+		"@emotion/styled": "^11.10.6",
+		"@mui/icons-material": "^5.11.9",
+		"@mui/material": "^5.11.10",
+		"get": "^1.4.0",
+		"lodash": "^4.17.21",
+		"next": "^13.0.6",
+		"next-themes": "^0.2.1",
+		"nextra": "^2.2.16",
+		"nextra-theme-docs": "^2.2.16",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "18.11.10",
+		"@typescript-eslint/eslint-plugin": "^5.53.0",
+		"@typescript-eslint/parser": "^5.53.0",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.34.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-typescript": "^17.0.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-import-resolver-typescript": "^3.5.3",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"husky": "^8.0.3",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.4",
+		"prettier-plugin-tailwindcss": "^0.2.4",
+		"tailwindcss": "^3.2.6",
+		"tsc": "^2.0.4",
+		"typescript": "^4.9.3"
+	}
 }
