@@ -1,9 +1,9 @@
 # About
 
-import Profile from "../components/Profile";
-import { profiles } from "@/constants/cards";
+import Profile from '../components/Profile';
+import { profiles } from '@/constants/cards';
 import DocLink from '@/components/DocLink';
-
+import Box from '@mui/material/Box';
 
 Welcome to the About page of our Naruto API documentation!
 
@@ -27,10 +27,17 @@ Thank you for using our Naruto API, and we hope that it helps you create amazing
 
 ## Team
 
-<div>
-  {profiles.map((profileDetails) => (
-    <Profile />
-  ))}
-</div>
-
 As in the Naruto universe, teams are a crucial aspect of ninja life, whether it's a team of genin taking on missions together or a group of elite ninja working together on a high-level mission, this is the team who created this project from scratch.
+
+<Box sx={{
+	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'center',
+	gap: '1.5rem',
+	margin: '2rem 1rem 1rem 1rem',
+	flexWrap : 'wrap',
+}}>
+	{profiles.map(profileDetails => (
+		<Profile profileDetails={profileDetails} />
+	))}
+</Box>

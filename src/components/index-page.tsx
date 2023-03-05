@@ -1,7 +1,6 @@
-import CharacterRenderBox from "./CharacterRenderBox";
-import HeroSection from "./HeroSection";
-import MidSection from "./MidSection";
-import '../styles/styles.scss'
+import CharacterRenderBox from './CharacterRenderBox';
+import HeroSection from './HeroSection';
+import MidSection from './MidSection';
 
 function IndexPage() {
 	return (
