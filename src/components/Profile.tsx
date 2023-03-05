@@ -11,13 +11,12 @@ type Props = {
     linkedin_url: string,
   }
 }
-export default function Profile(props) {
-  
-  const { profileDetails } = props;
+export default function Profile({profileDetails}: Props) {
+
 
   return (
     <div className="card" key={get(profileDetails, ["name"])}>
-      <div className="ds-top"></div>
+      <div className="ds-top" />
       <div className="avatar-holder">
         <img
           src={get(profileDetails, ["profile_image_url"])}
@@ -30,7 +29,7 @@ export default function Profile(props) {
 
       <div className="ds-info">
         <div className="ds twitter">
-          <a href={get(profileDetails, ["twitter_url"])} target="_blank">
+          <a href={get(profileDetails, ["twitter_url"])} target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
@@ -44,7 +43,7 @@ export default function Profile(props) {
         </div>
 
         <div className="ds github">
-          <a href={get(profileDetails, ["github_url"])} target="_blank">
+          <a href={get(profileDetails, ["github_url"])} target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
@@ -58,7 +57,7 @@ export default function Profile(props) {
         </div>
 
         <div className="ds linkedin">
-          <a href={get(profileDetails, ["linkedin_url"])} target="_blank">
+          <a href={get(profileDetails, ["linkedin_url"])} target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 30 30"
