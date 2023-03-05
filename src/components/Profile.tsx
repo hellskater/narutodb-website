@@ -12,6 +12,7 @@ type Props = {
   }
 }
 export default function Profile(props) {
+  
   const { profileDetails } = props;
 
   return (
