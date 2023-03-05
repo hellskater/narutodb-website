@@ -1,7 +1,7 @@
-import get from 'lodash/get';
-import styles from '../styles/styles.module.scss';
-import { useTheme } from 'next-themes';
 import Box from '@mui/material/Box';
+import get from 'lodash/get';
+import { useTheme } from 'next-themes';
+import styles from '../styles/styles.module.scss';
 
 // credit: https://codesandbox.io/s/laughing-swirles-fweirz?file=/src/App.js:0-3960
 
