@@ -1,0 +1,77 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"airbnb",
+		"airbnb-typescript",
+		"airbnb/hooks",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"prettier",
+		"plugin:import/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": {
+				"alwaysTryTypes": true,
+				"project": "./tsconfig.json"
+			}
+		}
+	},
+	"plugins": ["react", "@typescript-eslint", "prettier", "import"],
+	"rules": {
+		"import/order": [
+			"error",
+			{
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				},
+				// "newlines-between": "always-and-inside-groups",
+				"groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+				"pathGroups": [
+					{
+						"pattern": "react",
+						"group": "external",
+						"position": "before"
+					}
+				],
+				"pathGroupsExcludedImportTypes": ["react"]
+			}
+		],
+		"prettier/prettier": "off",
+		"react/react-in-jsx-scope": "off",
+		// "react/prop-types": "off",
+		"react/jsx-no-bind": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/require-default-props": "off",
+		"react/jsx-filename-extension": [
+			1,
+			{
+				"extensions": [".tsx"]
+			}
+		],
+		// no console logs in production
+		"no-console": ["error", { "allow": ["warn", "error"] }],
+		// no unused vars
+		"no-unused-vars": "error",
+		// no unused expressions
+		"no-unused-expressions": "error",
+		// unresolved imports are errors
+		"import/no-unresolved": "off",
+		// missing file extension is error
+		"import/extensions": "off",
+		"jsx-a11y/label-has-associated-control": "off"
+	}
+}

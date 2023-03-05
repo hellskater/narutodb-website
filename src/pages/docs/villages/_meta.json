@@ -1,5 +1,5 @@
 {
-    "villagesSchema": "Villages Schema",
+    "villageSchema": "Village Schema",
     "getAllVillages": "Get All Villages",
     "getVillageById": "Get Village by Id",
     "searchVillage":"Search Village"

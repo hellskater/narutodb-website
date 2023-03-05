@@ -1,24 +1,34 @@
 {
-  "index": {
-    "title": "Home",
-    "type": "page",
-    "display": "hidden",
-    "theme": {
-      "layout": "raw"
-    }
-  },
-  "docs": {
-    "title": "Docs",
-    "type": "page"
-  },
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/Srinu53168",
-    "newWindow": true
-  }
+	"index": {
+		"title": "Home",
+		"type": "page",
+		"display": "hidden",
+		"theme": {
+			"layout": "raw"
+		}
+	},
+	"docs": {
+		"title": "Docs",
+		"type": "page"
+	},
+	"about": {
+		"title": "About",
+		"type": "page",
+		"theme": {
+			"typesetting": "article"
+		}
+	},
+	"support": {
+		"title": "Support Us",
+		"type": "page",
+		"theme": {
+			"typesetting": "article"
+		}
+	},
+	"contact": {
+		"title": "Contact ↗",
+		"type": "page",
+		"href": "https://twitter.com/Srinu53168",
+		"newWindow": true
+	}
 }

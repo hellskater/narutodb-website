@@ -1,6 +1,6 @@
 {
     "akatsukiSchema": "Akatsuki Schema",
     "getAllAkatsuki": "Get All Akatsuki",
-    "getAkaksukiMemberById": "Get Akasuki Member by Id",
-    "searchAkasukiMember": "Search Akasuki Member"
+    "getAkatsukiById": "Get Akatsuki by Id",
+    "searchAkatsuki": "Search Akatsuki"
   }

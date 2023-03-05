@@ -1,1 +1,29 @@
 # Tailed Beasts
+
+import { Card, Cards } from 'nextra-theme-docs';
+import { tailedBeastCards } from '@/constants/cards';
+
+The "/tailed-beast" endpoint provides access to information about the Tailed Beasts in the Naruto universe. With this endpoint, you can retrieve details about a specific Tailed Beast, including its name, number of tails, characteristics, and Jinchuriki hosts.
+
+Our API contains information about all the nine Tailed Beasts in the Naruto universe, including the powerful Kyuubi (Nine-Tailed Fox) and the lesser-known Tailed Beasts. Whether you are interested in the origin and powers of the Tailed Beasts or their Jinchuriki hosts, our API can provide you with the data you need.
+
+The "/tailed-beast" endpoint can be particularly useful for developers who are creating applications or websites related to the Naruto universe. With this endpoint, you can retrieve information about specific Tailed Beasts, display Tailed Beast profiles, or build comprehensive Tailed Beast guides.
+
+To use the "/tailed-beast" endpoint, you can make a GET request to the appropriate URL with the Tailed Beast ID or name or any required params that are in the docs. The response will include all available information about that Tailed Beast in JSON format.
+
+We have provided detailed information about the data that is returned by this endpoint, as well as examples of how to use it.
+
+We hope that you find the "/tailed-beast" endpoint useful and that it helps you create amazing applications related to the Naruto universe.
+
+<div className="h-10" />
+
+<Cards>
+  {tailedBeastCards.map((card) => (
+    <Card
+      key={`card-${card.href}`}
+      title={card.title}
+      href={card.href}
+    />
+))}
+
+</Cards>

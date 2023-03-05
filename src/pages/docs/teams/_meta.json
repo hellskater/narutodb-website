@@ -1,5 +1,5 @@
 {
-    "teamsSchema": "Teams Schema",
+    "teamSchema": "Team Schema",
     "getAllTeams": "Get All Teams",
     "getTeamById": "Get Team by Id",
     "searchTeam":"Search Team"

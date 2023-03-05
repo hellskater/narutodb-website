@@ -1,11 +1,9 @@
-import React from "react";
-
-const Logo = () => {
-  return (
-    <span className="text-orange-500 font-bold text-lg lg:text-xl font-naruto tracking-wider">
-      Naruto DB
-    </span>
-  );
-};
+function Logo() {
+	return (
+		<span className="font-naruto text-lg font-bold tracking-wider text-orange-500 lg:text-xl">
+			Naruto DB
+		</span>
+	);
+}
 
 export default Logo;
