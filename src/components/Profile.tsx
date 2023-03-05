@@ -18,7 +18,6 @@ type Props = {
 };
 
 export default function Profile({ profileDetails }: Props) {
-	
 	const { resolvedTheme } = useTheme();
 	const [lightMode, setLightMode] = useState(false);
 
