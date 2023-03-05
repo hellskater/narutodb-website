@@ -1,8 +1,16 @@
-import "../styles/styles.scss";
 import get from "lodash/get";
 
 // credit: https://codesandbox.io/s/laughing-swirles-fweirz?file=/src/App.js:0-3960
-
+type Props = {
+  profileDetails: {
+    name: string;
+    profile_image_url: string,
+    designation: string,
+    github_url: string,
+    twitter_url: string,
+    linkedin_url: string,
+  }
+}
 export default function Profile(props) {
   const { profileDetails } = props;
 
