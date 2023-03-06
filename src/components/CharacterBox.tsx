@@ -32,6 +32,10 @@ export default function MultiActionAreaCard({ characterData }: Props) {
 			imageURL = `${get(characterData, ['images', 0], '').split('.jpg')[0]}.jpg`;
 			return imageURL;
 		}
+		if (get(characterData, ['images', 0], '').includes('.PNG')) {
+			imageURL = `${get(characterData, ['images', 0], '').split('.PNG')[0]}.PNG`;
+			return imageURL;
+		}
 		return false;
 	};
 
