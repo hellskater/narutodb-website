@@ -39,10 +39,7 @@ export default function MultiActionAreaCard({ characterData }: Props) {
 		<Card sx={{ maxWidth: 450, minWidth: 330, fontFamily: 'Naruto' }} elevation={4}>
 			<CardActionArea
 				onClick={() =>
-					window.open(
-						`https://narutodb.cyclic.app/character/${characterData.id}`,
-						'_blank',
-					)
+					window.open(`https://api.narutodb.xyz/character/${characterData.id}`, '_blank')
 				}
 			>
 				<CardMedia
