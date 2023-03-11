@@ -31,11 +31,11 @@ function MidSection() {
 				covered. Our API is designed to be easy to use and accessible to everyone, so you
 				can start exploring the world of Naruto characters today.
 			</p>
-			<Link href="/docs">
-				<button
-					type="button"
-					className="mt-12 flex items-center gap-1 rounded bg-orange-500 py-1 px-4 font-bold text-white hover:bg-orange-600"
-				>
+			<Link
+				href="/docs"
+				className="mt-12 flex items-center gap-1 rounded bg-orange-500 py-1 px-4 font-bold text-white hover:bg-orange-600"
+			>
+				<button type="button" className="flex items-center gap-1">
 					<img src="/leaf.png" alt="leaf logo" className="h-10 w-10 object-contain" />
 					<p>Get Started</p>
 				</button>
