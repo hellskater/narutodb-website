@@ -12,7 +12,7 @@ curl -X 'GET' \
      -H 'accept: application/json'
 ```
 
-````js
+```js
 {
   "akatsuki": [
     {
@@ -95,4 +95,59 @@ curl -X 'GET' \
         ...
 
     ```
-````
+
+#### Pagination and Limit
+
+```js
+https://api.narutodb.xyz/akatsuki?page=3&limit=4
+```
+
+```js
+curl -X 'GET' \
+  'https://api.narutodb.xyz/akatsuki?page=3&limit=4' \
+  -H 'accept: application/json'
+```
+
+```js
+{
+  "akatsuki": [
+    {
+      "id": 400,
+      "name": "Hinoki",
+      "images": [
+        "https://static.wikia.nocookie.net/naruto/images/b/be/Hinoki.png/revision/latest?cb=20161116231059"
+      ],
+      "debut": {
+        "game": "Naruto: Path of the Ninja 2",
+        "appearsIn": "Game"
+      },
+      "family": {
+        "granddaughter": "Nazuna"
+      },
+      "personal": {
+        "sex": "Male",
+        "occupation": "Village Head",
+        "affiliation": "Valley of Great Evil\"Valley of Great Evil\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+      }
+    },
+    {
+      "id": 1293,
+      "name": "Itachi Uchiha",
+      "images": [
+        "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/revision/latest/scale-to-width-down/300?cb=20220214112531"
+      ],
+      "debut": {
+        "manga": "Naruto Chapter #139",
+        "anime": "Naruto Episode #80",
+        "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+        "movie": "Road to Ninja: Naruto the Movie",
+        "game": "Naruto: Ultimate Ninja 2",
+        "ova": "Hidden Leaf Village Grand Sports Festival!", .... ]
+
+ "currentPage": "3",
+  "pageSize": "4",
+  "totalMembers": 44
+}
+```
+
+
