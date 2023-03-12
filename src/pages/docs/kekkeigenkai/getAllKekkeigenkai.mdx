@@ -59,4 +59,50 @@ curl -X 'GET' \
           ],
           "debut": {
             ...
+
+```
+
+#### Pagination and Limit
+
+```js
+https://api.narutodb.xyz/kekkei-genkai?page=1&limit=15
+```
+
+```js
+curl -X 'GET' \
+  'https://api.narutodb.xyz/kekkei-genkai?page=1&limit=15' \
+  -H 'accept: application/json'
+```
+
+```js
+{
+  "kekkeigenkai": [
+    {
+      "id": 15,
+      "name": "Lava Release   (Anime only)",
+      "characters": [
+        {
+          "id": 736,
+          "name": "Kyūsuke",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/e/e7/Kyusuke.png/revision/latest/scale-to-width-down/300?cb=20140123150414"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #446",
+            "anime": "Naruto Shippūden Episode #173",
+            "game": "Naruto Shippūden: Ultimate Ninja Storm 3",
+            "appearsIn": "Anime, Manga, Game"
+          },
+          "jutsu": [
+            "Lava Release: Quicklime Congealing Technique (Anime only)"
+          ],
+          "natureType": [
+            "Lava Release  (Anime only)",
+            "Fire Release  (Anime only)",
+            "Earth Release .... ]
+
+  "currentPage": "2",
+  "pageSize": "15",
+  "totalKekkeiGenkai": 39
+}
 ```

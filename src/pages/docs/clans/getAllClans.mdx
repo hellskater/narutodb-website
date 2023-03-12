@@ -56,3 +56,47 @@ curl -X 'GET' \
             ...
 
 ```
+
+#### Pagination and Limit
+
+```js
+https://api.narutodb.xyz/clan?page=1&limit=20
+```
+
+```js
+curl -X 'GET' \
+  'https://api.narutodb.xyz/clan?page=1&limit=20' \
+  -H 'accept: application/json'
+```
+
+```js
+{
+  "clans": [
+    {
+      "id": 0,
+      "name": "Aburame",
+      "characters": [
+        {
+          "id": 9,
+          "name": "Harika Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4e/Harika_Aburame.png/revision/latest/scale-to-width-down/300?cb=20220904143733"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #261",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Parasitic Destruction Insect Technique (Kikaichū)"
+          ],
+          "personal": {
+            "sex": "Female",
+            "affiliation": "Konohagakure",
+            "clan": "Aburame"
+          }.... ]
+
+  "currentPage": "1",
+  "pageSize": "20",
+  "totalKara": 32
+}
+```
