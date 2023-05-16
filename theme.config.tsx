@@ -45,6 +45,16 @@ const config: DocsThemeConfig = {
 			<link rel="icon" type="image/jpg" sizes="32x32" href="/logo.png" />
 		</>
 	),
+	banner: {
+    		key: '10-million-hits',
+    		text: (
+      			<a href="https://srini-dev.hashnode.dev/narutodbxyz-how-we-hit-10-million-requests-in-3-months" target="_blank">
+        			🎉 NarutoDB hit 10 million requests in 3 months. Read more →
+      			</a>
+    		),
+		dismissible: true
+
+  }
 };
 
 export default config;
