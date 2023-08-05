@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import tailedBeasts from '../data/tailedBeasts.json';
+import tailedBeasts from '../data/tailedbeasts.json';
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	const page = Number(req.query.page) || 1;
