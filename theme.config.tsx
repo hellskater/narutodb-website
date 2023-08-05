@@ -48,9 +48,11 @@ const config: DocsThemeConfig = {
 	banner: {
 		key: 'api-transition',
 		text: (
-			<p className="text-center text-base text-orange-500">
-				We are currently in the phase of transitioning our API routes. Some routes may not
-				work as expected. Please bear with us as we work on this. Thank you! 🙏
+			<p className="text-center text-base">
+				All the API endpoints have been migrated from{' '}
+				<code className="text-orange-500">https://api.narutodb.xyz</code> to{' '}
+				<code className="text-orange-500">https://narutodb.xyz/api</code>. Pleas refer to
+				the documentation for more information. Sorry for the inconvenience 🙏
 			</p>
 		),
 		dismissible: true,
