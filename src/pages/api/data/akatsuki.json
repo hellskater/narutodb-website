@@ -1,0 +1,1552 @@
+[
+  {
+    "id": 1425,
+    "name": "Black Zetsu",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/e/e9/Black_Zetsu.png"],
+    "debut": {
+      "manga": "Naruto Chapter #234",
+      "anime": "Naruto Episode #134",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja 4",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "creator": "Kaguya Ōtsutsuki" },
+    "jutsu": ["Naruto: Ultimate Ninja Online14 April 201320 July 2016"],
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "personal": {
+      "species": "Artificial Human",
+      "status": "Incapacitated",
+      "kekkeiGenkai": ["Wood Release", "Rinnegan", "Sharingan", "Mangekyō Sharingan"],
+      "classification": ["Jinchūriki", "S-rank", "Sensor Type"],
+      "tailedBeast": "Kurama (Yin half) (Forms)",
+      "occupation": "Akatsuki spy",
+      "affiliation": "Akatsuki",
+      "partner": ["Kaguya Ōtsutsuki", "White Zetsu", "Obito Uchiha", "Madara Uchiha"]
+    },
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": {
+      "japanese": ["Nobuo Tobita", "Kengo Kawanishi   (Child)"],
+      "english": ["Travis Willingham", "Michael Sorich   (Naruto Episode 135)", "Todd Haberkorn   (Child)"]
+    }
+  },
+  {
+    "id": 141,
+    "name": "Chibi",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/d/d2/Chibi.png"],
+    "debut": { "manga": "Naruto Chapter #445", "anime": "Naruto Shippūden Episode #172", "appearsIn": "Anime, Manga" },
+    "personal": {
+      "sex": "Male",
+      "species": "Dog",
+      "age": { "Part II": "2" },
+      "status": "Deceased",
+      "affiliation": "Ame Orphans\"Ame Orphans\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    }
+  },
+  {
+    "id": 166,
+    "name": "Daibutsu",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/a/a2/Daibutsu1.png"],
+    "debut": { "anime": "Naruto Shippūden Episode #347", "appearsIn": "Anime" },
+    "jutsu": ["Water Prison Technique"],
+    "natureType": ["Water Release"],
+    "personal": { "sex": "Male", "status": "Deceased", "height": { "Part II": "210cm" }, "affiliation": "Akatsuki" },
+    "tools": ["Bō"],
+    "voiceActors": { "japanese": "Kōsuke Gotō", "english": "Travis Willingham" }
+  },
+  {
+    "id": 193,
+    "name": "Deidara",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/0/06/Deidara.png"],
+    "debut": {
+      "manga": "Naruto Chapter #247",
+      "anime": "Naruto Shippūden Episode #2",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Gekitō Ninja Taisen! EX",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "Clay Clone",
+      "Earth Release: Hiding Like a Mole Technique",
+      "Explosive Clay",
+      "Explosive Clay Dolls (Anime only)",
+      "Explosive Landmines",
+      "Five-Seal Barrier Pass Technique",
+      "Iwagakure Kinjutsu",
+      "Shadow Clone Technique",
+      "Suicide Bombing Clone"
+    ],
+    "natureType": ["Explosion Release", "Earth Release", "Lightning Release"],
+    "personal": {
+      "birthdate": "May 5",
+      "sex": "Male",
+      "age": { "Part II": "19" },
+      "status": "Deceased",
+      "height": { "Part II": "166cm" },
+      "weight": { "Part II": "50.8kg" },
+      "bloodType": "AB",
+      "kekkeiGenkai": "Explosion Release",
+      "classification": ["S-rank", "Missing-nin", "Mercenary Ninja"],
+      "occupation": "Terrorist Bomber",
+      "affiliation": ["Iwagakure", "Akatsuki"],
+      "team": ["Explosion Corps", "Surprise Attack and Diversion Platoon"],
+      "partner": ["Sasori", "Tobi"]
+    },
+    "rank": { "ninjaRegistration": "IW-08721" },
+    "tools": ["Eye Scope", "Sword (Anime only)"],
+    "voiceActors": { "japanese": "Katsuhiko Kawamoto", "english": ["Quinton Flynn   (Episode 135)", "Roger Craig Smith"] }
+  },
+  {
+    "id": 195,
+    "name": "Demonic Statue of the Outer Path",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/f/fe/Gedo_Mazo.png"],
+    "debut": {
+      "manga": "Naruto Chapter #254",
+      "anime": "Naruto Shippūden Episode #10",
+      "novel": "The Last: Naruto the Movie",
+      "movie": "The Last: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja 5",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "original form": "Ten-Tails" },
+    "jutsu": ["The Springtime of Youth wiki has an article about this topic:", "Demonic Statue of the Outer Path"],
+    "personal": { "status": "Incapacitated", "classification": "Summon", "affiliation": "Akatsuki" }
+  },
+  {
+    "id": 325,
+    "name": "Ginji",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/5/52/Ginji.png"],
+    "debut": { "manga": "Naruto Chapter #355", "anime": "Naruto Shippūden Episode #122", "appearsIn": "Anime, Manga" },
+    "personal": { "sex": "Male", "age": { "Part II": "23" }, "occupation": "Banker", "affiliation": "Akatsuki", "partner": "Kyōya" },
+    "voiceActors": { "japanese": "Kanji Suzumori", "english": "Patrick Seitz" }
+  },
+  {
+    "id": 388,
+    "name": "Hidan",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/e/e3/Hidan.png"],
+    "debut": {
+      "manga": "Naruto Chapter #312",
+      "anime": "Naruto Shippūden Episode #71",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Gekitō Ninja Taisen! EX 3",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": ["Curse Technique: Death Controlling Possessed Blood"],
+    "personal": {
+      "birthdate": "April 2",
+      "sex": "Male",
+      "age": { "Part II": "22" },
+      "status": "Incapacitated",
+      "height": { "Part II": "177.1cm" },
+      "weight": { "Part II": "56.8kg" },
+      "bloodType": "B",
+      "classification": ["S-rank", "Missing-nin"],
+      "affiliation": ["Yugakure", "Akatsuki"],
+      "partner": "Kakuzu"
+    },
+    "tools": ["Retractable Spear", "Triple-Bladed Scythe"],
+    "voiceActors": { "japanese": "Masaki Terasoma", "english": ["Chris Edgerly", "Wally Wingert   (Naruto Shippūden: Clash of Ninja Revolution 3)"] }
+  },
+  {
+    "id": 396,
+    "name": "Himeyuri",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/2/24/Himeyuri.png"],
+    "debut": { "anime": "Naruto Shippūden Episode #485", "appearsIn": "Anime" },
+    "personal": {
+      "sex": "Female",
+      "status": "Deceased",
+      "occupation": "Businesswoman",
+      "affiliation": "Himeyuri Company\"Himeyuri Company\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    },
+    "voiceActors": { "japanese": "Mariko Higashiuchi", "english": "Colleen O'Shaughnessey" }
+  },
+  {
+    "id": 400,
+    "name": "Hinoki",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/b/be/Hinoki.png"],
+    "debut": { "game": "Naruto: Path of the Ninja 2", "appearsIn": "Game" },
+    "family": { "granddaughter": "Nazuna" },
+    "personal": {
+      "sex": "Male",
+      "occupation": "Village Head",
+      "affiliation": "Valley of Great Evil\"Valley of Great Evil\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    }
+  },
+  {
+    "id": 1293,
+    "name": "Itachi Uchiha",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png"],
+    "debut": {
+      "manga": "Naruto Chapter #139",
+      "anime": "Naruto Episode #80",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto: Ultimate Ninja 2",
+      "ova": "Hidden Leaf Village Grand Sports Festival!",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "father": "Fugaku Uchiha", "mother": "Mikoto Uchiha", "brother": "Sasuke Uchiha", "niece": "Sarada Uchiha" },
+    "jutsu": [
+      "Amaterasu",
+      "Chakra Suppression Technique (Novel only)",
+      "Clone Great Explosion",
+      "Crow Clone Technique",
+      "Demonic Illusion: Mirage Crow",
+      "Demonic Illusion: Mirror Heaven and Earth Change",
+      "Demonic Illusion: Shackling Stakes Technique",
+      "Early Sacrifice",
+      "Ephemeral",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique",
+      "Fire Release: Phoenix Sage Flower Nail Crimson",
+      "Genjutsu: Sharingan",
+      "Izanami",
+      "Sensing Barrier Pass Technique",
+      "Shadow Clone Technique",
+      "Summoning Technique (Crow)",
+      "Susanoo",
+      "Susanoo: Fist",
+      "Transcription Seal: Amaterasu",
+      "Tsukuyomi",
+      "Water Release: Starch Syrup Capturing Field (Novel only)",
+      "Water Release: Water Bullet Technique",
+      "Water Release: Water Dragon Bullet Technique",
+      "Water Release: Water Fang Bullet",
+      "Yasaka Magatama"
+    ],
+    "natureType": ["Fire Release", "Wind Release", "Water Release", "Yin Release", "Yang Release"],
+    "personal": {
+      "birthdate": "June 9",
+      "sex": "Male",
+      "age": { "Part I": "17–18", "Part II": "21", "Academy Graduate": "7", "Chunin Promotion": "10" },
+      "status": "Deceased",
+      "height": { "Part I": "175.2cm", "Part II": "178cm" },
+      "weight": { "Part I": "57.1kg", "Part II": "58kg" },
+      "bloodType": "AB",
+      "kekkeiGenkai": ["Sharingan", "Mangekyō Sharingan"],
+      "classification": ["S-rank", "Missing-nin"],
+      "occupation": "Anbu Captain  (Former)",
+      "affiliation": ["Konohagakure", "Akatsuki"],
+      "team": ["Team 2  (Anime and Novel only)", "Team Ro  (Anime only)"],
+      "partner": ["Jūzō Biwa  (Anime only)", "Kisame Hoshigaki"],
+      "clan": "Uchiha",
+      "titles": [
+        "うちはイタチUchihaItachi",
+        "itachiOfTheSharingan(写輪眼のイタチ,SharinganNoItachi,LiterallyMeaning:ItachiOfTheCopyWheelEye)clanKillerItachi(一族殺しのイタチ,IchizokugoroshiNoItachi)"
+      ]
+    },
+    "rank": { "ninjaRank": { "Part I": "Anbu" }, "ninjaRegistration": "012110" },
+    "tools": ["Military Rations Pill (Anime only)", "Sword", "Sword of Totsuka", "Tantō (Anime only)", "Yata Mirror"],
+    "voiceActors": {
+      "japanese": ["Hideo Ishikawa", "Yuka Terasaki   (Child)"],
+      "english": ["Skip Stellrecht   (Episodes 29-30)", "Crispin Freeman", "Doug Erholtz   (Naruto: Ninja Council 3)", "Michelle Ruff   (Child)"]
+    }
+  },
+  {
+    "id": 521,
+    "name": "Jūgo",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/4/42/Jugo.png",
+      "https://static.wikia.nocookie.net/naruto/images/a/af/Jugo_Part_III.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #348",
+      "anime": "Naruto Shippūden Episode #116",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "game": "Naruto Shippūden: Dragon Blade Chronicles",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game"
+    },
+    "jutsu": [
+      "Cellular Regeneration Absorption",
+      "Cellular Regeneration Ejection",
+      "Chain",
+      "Chakra Transfer Technique",
+      "Destroying Axe Fist",
+      "Jet Booster Jump",
+      "Multiple Lotus Nonself Connected Cannons",
+      "Piston Fist",
+      "Piston Fist: Style One",
+      "Sage Mode",
+      "Sage Transformation"
+    ],
+    "natureType": ["Wind Release", "Earth Release", "Water Release", "Yang Release"],
+    "personal": {
+      "birthdate": "October 1",
+      "sex": "Male",
+      "age": { "Part II": "18–19" },
+      "height": { "Part II": "202.1cm" },
+      "weight": { "Part II": "75.8kg" },
+      "bloodType": "AB",
+      "kekkeiGenkai": "Jūgo's Clan's Kekkei Genkai",
+      "classification": "Sage",
+      "affiliation": ["Otogakure", "Akatsuki"],
+      "team": "Taka",
+      "clan": "Jūgo's"
+    },
+    "tools": ["Naruto Mobile20162016"],
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": { "japanese": "Shūhei Sakaguchi", "english": ["Travis Willingham", "Kyle Hebert   (Boruto #22+)"] }
+  },
+  {
+    "id": 1359,
+    "name": "Kabuto Yakushi",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/c/c9/Kabuto_Part_1.png",
+      "https://static.wikia.nocookie.net/naruto/images/0/0b/Kabuto_Part_II.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #39",
+      "anime": "Naruto Episode #23",
+      "novel": "Sasuke Shinden: Book of Sunrise  (Mentioned)",
+      "movie": "Naruto Shippūden the Movie: Bonds",
+      "game": "Naruto: Ultimate Ninja",
+      "ova": "Hidden Leaf Village Grand Sports Festival!",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "adoptive mother": "Nonō Yakushi", "adoptive sons": "Shin Uchiha", "adoptive brother": "Urushi" },
+    "jutsu": [
+      "Attack of the Twin Demons",
+      "Body Fluid Shedding Technique",
+      "Body Recreation Technique (Anime only)",
+      "Chakra Absorbing Snakes (Anime only)",
+      "Chakra Draining Seal",
+      "Chakra Scalpel",
+      "Clone Snakes (Anime only)",
+      "Clone Snakes: Serpent Technique (Anime only)",
+      "Dance of the Seedling Fern",
+      "Dead Soul Technique",
+      "Demonic Flute: Phantom Sound Chains",
+      "Earth Release: Earth Shore Return",
+      "Earth Release: Hiding Like a Mole Technique",
+      "Hidden Shadow Snake Hands",
+      "Hiding with Camouflage Technique (Anime only)",
+      "Many Hidden Shadow Snake Hands",
+      "Mystical Palm Technique",
+      "Orochimaru-Style Body Replacement Technique",
+      "Reverse Summoning Technique",
+      "Sage Art: Inorganic Reincarnation",
+      "Sage Art: White Rage Technique",
+      "Sage Mode",
+      "Sage Transformation",
+      "Scroll Communication Technique (Anime only)",
+      "Slithering Snake Mode",
+      "Snake Clone Technique (Anime only)",
+      "Soft Physique Modification",
+      "Spider Web Unrolling",
+      "Strange Transmission Distant Shadow",
+      "Summoning Technique (Snake)",
+      "Summoning: Impure World Reincarnation",
+      "Temple of Nirvana Technique",
+      "Vanishing Facial Copy Technique (Anime only)",
+      "Water Release: Great Waterfall Technique",
+      "Water Release: Water Bullet Technique",
+      "Water Release: Water Dragon Bullet Technique",
+      "Yin Healing Wound Destruction"
+    ],
+    "natureType": ["Earth Release", "Water Release", "Wind Release", "Yin Release", "Yang Release"],
+    "personal": {
+      "birthdate": "February 29",
+      "sex": "Male",
+      "age": { "Part I": "19–20", "Part II": "23–24", "Academy Graduate": "10" },
+      "height": { "Part I": "176.2cm", "Part II": "177cm" },
+      "weight": { "Part I": "65kg" },
+      "bloodType": "AB",
+      "kekkeiGenkai": ["Jūgo's Clan's Kekkei Genkai", "Sakon and Ukon's Kekkei Genkai", "Shikotsumyaku"],
+      "classification": ["Medical-nin", "Missing-nin", "Sage"],
+      "occupation": ["Orochimaru's spy and right-hand man", "Sasori's spy", "Caretaker at the Konoha Orphanage"],
+      "affiliation": ["Konohagakure", "Root", "Konoha Orphanage", "Otogakure", "Ryūchi Cave", "Akatsuki"],
+      "team": "Team Kabuto",
+      "partner": "Orochimaru",
+      "titles": ["薬師カブトYakushiKabuto"]
+    },
+    "rank": { "ninjaRank": { "Part I": "Genin" }, "ninjaRegistration": "012140" },
+    "tools": [
+      "Blood Increasing Pill",
+      "Blowpipe (Anime only)",
+      "Military Rations Pill",
+      "Ninja Info Cards",
+      "Poison",
+      "Senbon (Anime only)",
+      "Triple-Bladed Scythe (Anime only)"
+    ],
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": {
+      "japanese": ["Nobutoshi Canna", "Mariko Mizuno   (Child)"],
+      "english": ["Henry Dittman", "Kirk Thornton   (Episode 135)", "Tara Sands   (Child)"]
+    }
+  },
+  {
+    "id": 558,
+    "name": "Kakuzu",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/5/57/Kakuzu.png"],
+    "debut": {
+      "manga": "Naruto Chapter #312",
+      "anime": "Naruto Shippūden Episode #71",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Gekitō Ninja Taisen! EX 3",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": ["The Springtime of Youth wiki has an article about this topic:", "Kakuzu"],
+    "natureType": ["Earth Release", "Water Release", "Fire Release", "Wind Release", "Lightning Release"],
+    "personal": {
+      "birthdate": "August 15",
+      "sex": "Male",
+      "age": { "Part II": "91" },
+      "status": "Deceased",
+      "height": { "Part II": "185cm" },
+      "weight": { "Part II": "63.2kg" },
+      "bloodType": "A",
+      "classification": ["S-rank", "Missing-nin"],
+      "occupation": "Akatsuki Treasurer",
+      "affiliation": ["Takigakure", "Akatsuki"],
+      "partner": ["Kakuzu's Partner", "Hidan"]
+    },
+    "voiceActors": { "japanese": "Takaya Hashi", "english": ["Paul St. Peter   (Episode 135)", "Fred Tatasciore"] }
+  },
+  {
+    "id": 559,
+    "name": "Kakuzu's Partner",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/c/cc/Kakuzu%27s_Partner.png"],
+    "personal": { "sex": "Male", "status": "Deceased", "classification": "Missing-nin", "affiliation": "Akatsuki", "partner": "Kakuzu" },
+    "tools": []
+  },
+  {
+    "id": 593,
+    "name": "Karin",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/7/72/Karin3.png",
+      "https://static.wikia.nocookie.net/naruto/images/6/6e/Karin_p3.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #347",
+      "anime": "Naruto Shippūden Episode #115",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "game": "Naruto Shippūden: Dragon Blade Chronicles",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game"
+    },
+    "family": { "mother ": "Karin's Mother" },
+    "jutsu": [
+      "Adamantine Attacking Chains",
+      "Chakra Suppression Technique",
+      "Chakra Transfer Technique",
+      "Heal Bite",
+      "Mind's Eye of the Kagura",
+      "Mystical Palm Technique (Anime only)"
+    ],
+    "natureType": ["Earth Release", "Water Release", "Yin Release", "Yang Release"],
+    "personal": {
+      "birthdate": "June 20",
+      "sex": "Female",
+      "age": { "Part II": "16–17" },
+      "height": { "Part II": "162.6cm", "Gaiden": "166cm" },
+      "weight": { "Part II": "45.8kg" },
+      "bloodType": "AB",
+      "classification": "Sensor Type",
+      "affiliation": ["Kusagakure", "Otogakure", "Akatsuki"],
+      "team": ["Team Shigeri", "Taka"],
+      "clan": "Uzumaki"
+    },
+    "rank": { "ninjaRank": { "Part II": "Genin" } },
+    "tools": ["Naruto Mobile20162016"],
+    "voiceActors": { "japanese": ["Kanako Tōjō", "Toa Yukinari   (Shippūden episode 485+)"], "english": "Ali Hillis" },
+    "香燐Karin": {}
+  },
+  {
+    "id": 627,
+    "name": "Kie",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/6/60/Monjin.png"],
+    "debut": {
+      "manga": "Naruto Chapter #509",
+      "anime": "Naruto Shippūden Episode #252",
+      "game": "Naruto Shippūden: Ultimate Ninja Storm 3",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "personal": { "sex": "Male", "age": { "Part II": "18" }, "status": "Deceased", "affiliation": ["Amegakure", "Akatsuki"] },
+    "voiceActors": { "japanese": "Shinobu Matsumoto", "english": "Richard Epcar" }
+  },
+  {
+    "id": 421,
+    "name": "Kisame Hoshigaki",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/2/25/Kisame.png"],
+    "debut": {
+      "manga": "Naruto Chapter #139",
+      "anime": "Naruto Episode #80",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto: Ultimate Ninja 2",
+      "ova": "Hidden Leaf Village Grand Sports Festival!",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": [
+      "Earth Release: Subterranean Voyage",
+      "Silent Killing",
+      "Summoning Technique (Shark)",
+      "Water Clone Technique",
+      "Water Prison Shark Dance Technique",
+      "Water Prison Technique",
+      "Water Release: A Thousand Feeding Sharks",
+      "Water Release: Exploding Water Colliding Wave",
+      "Water Release: Five Feeding Sharks",
+      "Water Release: Four Sharks Rain (Anime only)",
+      "Water Release: Great Exploding Water Colliding Wave",
+      "Water Release: Great Shark Bullet Technique",
+      "Water Release: Water Bullet Technique",
+      "Water Release: Water Shark Bullet Technique"
+    ],
+    "natureType": ["Water Release", "Fire Release", "Wind Release", "Earth Release"],
+    "personal": {
+      "birthdate": "March 18",
+      "sex": "Male",
+      "age": { "Part I": "29", "Part II": "32–33", "Academy Graduate": "10" },
+      "status": "Deceased",
+      "height": { "Part I": "195cm" },
+      "weight": { "Part I": "83.1kg" },
+      "bloodType": "AB",
+      "classification": ["S-rank", "Missing-nin"],
+      "affiliation": ["Kirigakure", "Akatsuki"],
+      "team": ["Cypher Division", "Seven Ninja Swordsmen of the Mist"],
+      "partner": "Itachi Uchiha",
+      "clan": "Hoshigaki   (Anime only)"
+    },
+    "rank": {},
+    "tools": ["Samehada", "Sword"],
+    "uniqueTraits": ["Can absorb chakra", "Gills"],
+    "voiceActors": { "japanese": "Tomoyuki Dan", "english": ["Michael McConnohie   (Episode 80)", "Kirk Thornton   (Episode 81+)"] }
+  },
+  {
+    "id": 684,
+    "name": "Konan",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/5/58/Konan_Infobox.png"],
+    "debut": {
+      "manga": "Naruto Chapter #363",
+      "anime": "Naruto Shippūden Episode #125",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja Heroes 3",
+      "ova": "Naruto x UT",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": [
+      "Dance of the Shikigami",
+      "Paper Chakram",
+      "Paper Clone",
+      "Paper Drizzle",
+      "Paper Person of God Technique",
+      "Paper Shuriken",
+      "Sensing Technique (Anime only)"
+    ],
+    "natureType": ["Wind Release", "Earth Release", "Water Release", "Yang Release"],
+    "personal": {
+      "birthdate": "February 20",
+      "sex": "Female",
+      "age": { "Part II": "35" },
+      "status": "Deceased",
+      "height": { "Part II": "169.4cm" },
+      "weight": { "Part II": "45.3kg" },
+      "bloodType": "O",
+      "classification": ["S-rank", "Sensor Type"],
+      "occupation": "Village Head",
+      "affiliation": ["Amegakure", "Akatsuki"],
+      "team": "Ame Orphans",
+      "partner": "Nagato"
+    },
+    "tools": ["Explosive Tag"],
+    "voiceActors": { "japanese": ["Atsuko Tanaka", "Kaori Mine   (Child)"], "english": "Dorothy Elias-Fahn" }
+  },
+  {
+    "id": 735,
+    "name": "Kyōya",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/7/7e/Kyoya.png"],
+    "debut": { "manga": "Naruto Chapter #355", "anime": "Naruto Shippūden Episode #122", "appearsIn": "Anime, Manga" },
+    "personal": { "sex": "Male", "age": { "Part II": "23" }, "occupation": "Accountant", "affiliation": "Akatsuki", "partner": "Ginji" },
+    "voiceActors": { "japanese": "Takafumi Kawakami", "english": "Tony Oliver" }
+  },
+  {
+    "id": 736,
+    "name": "Kyūsuke",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/e/e7/Kyusuke.png"],
+    "debut": {
+      "manga": "Naruto Chapter #446",
+      "anime": "Naruto Shippūden Episode #173",
+      "game": "Naruto Shippūden: Ultimate Ninja Storm 3",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "jutsu": ["Lava Release: Quicklime Congealing Technique (Anime only)"],
+    "natureType": ["Lava Release  (Anime only)", "Fire Release  (Anime only)", "Earth Release  (Anime only)"],
+    "personal": {
+      "sex": "Male",
+      "status": "Deceased",
+      "height": { "Part II": "171.6cm" },
+      "kekkeiGenkai": "Lava Release   (Anime only)",
+      "affiliation": ["Amegakure", "Akatsuki"]
+    },
+    "tools": ["Sword (Anime only)"],
+    "voiceActors": { "japanese": "Hidenobu Kiuchi", "english": "Keith Silverstein" }
+  },
+  {
+    "id": 1299,
+    "name": "Madara Uchiha",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/f/fd/Madara.png"],
+    "debut": {
+      "manga": "Naruto Chapter #370",
+      "anime": "Naruto Shippūden Episode #130",
+      "novel": "Kakashi Hiden: Lightning in the Icy Sky  (Mentioned)",
+      "movie": "The Last: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja Storm 2",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "father": "Tajima Uchiha", "brother": "Izuna Uchiha" },
+    "jutsu": [
+      "Animal Path",
+      "Asura Path",
+      "Black Receiver",
+      "Blocking Technique Absorption Seal",
+      "Chibaku Tensei",
+      "Demonic Statue Chains",
+      "Deva Path",
+      "Evil Disturbance Waltz",
+      "Fire Release: Dragon Flame Release Song Technique",
+      "Fire Release: Great Fire Annihilation",
+      "Fire Release: Great Fire Destruction",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Great Flame Flower (Anime only)",
+      "Fire Release: Hiding in Ash and Dust Technique",
+      "Forbidden Individual Curse Tag",
+      "Genjutsu: Sharingan",
+      "God: Nativity of a World of Trees",
+      "Gunbai Fanned Wind (Anime only)",
+      "Hiding in Surface Technique",
+      "Human Path",
+      "Infinite Tsukuyomi",
+      "Izanagi",
+      "Kamui",
+      "Limbo: Border Jail",
+      "Majestic Attire: Susanoo",
+      "Multiple Wood Release Clone Technique",
+      "Naraka Path",
+      "Outer Path",
+      "Preta Path",
+      "Regeneration Ability",
+      "Sage Art: Storm Release Light Fang",
+      "Sage Art: Yin Release Lightning Dispatch",
+      "Sensing Technique",
+      "Shadow Clone Technique",
+      "Six Paths Senjutsu",
+      "Six Paths Technique",
+      "Six Paths Ten-Tails Coffin Seal",
+      "Summoning Technique (Demonic Statue of the Outer Path, Kurama)",
+      "Summoning: Demonic Statue of the Outer Path",
+      "Susanoo",
+      "Susanoo: Fist",
+      "Tengai Shinsei",
+      "Transcription Seal: Izanagi",
+      "Truth-Seeking Ball",
+      "Uchiha Return",
+      "Will Materialisation",
+      "Wood Clone Technique",
+      "Wood Release Secret Technique: Nativity of a World of Trees",
+      "Wood Release: Advent of a World of Flowering Trees",
+      "Wood Release: Wood Dragon Technique",
+      "Yasaka Magatama"
+    ],
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Wood Release",
+      "Storm Release",
+      "Yin Release",
+      "Yang Release",
+      "Yin–Yang Release"
+    ],
+    "personal": {
+      "birthdate": "December 24",
+      "sex": "Male",
+      "status": "Deceased",
+      "height": { "Part II": "179cm" },
+      "weight": { "Part II": "71.3kg" },
+      "bloodType": "O",
+      "kekkeiGenkai": ["Sharingan", "Eternal Mangekyō Sharingan", "Rinnegan", "Wood Release", "Storm Release"],
+      "kekkeiMōra": "Rinne Sharingan",
+      "classification": ["Jinchūriki", "Missing-nin", "Sensor Type", "Sage"],
+      "tailedBeast": "Ten-Tails (Forms)",
+      "occupation": ["Co-founder of Konohagakure", "Head of the Uchiha clan  (Former)"],
+      "affiliation": ["Konohagakure", "Akatsuki"],
+      "partner": ["Obito Uchiha", "Black Zetsu"],
+      "clan": "Uchiha",
+      "titles": [
+        "うちはマダラUchihaMadara",
+        "secondSixPaths(二人目の六道,FutarimeNoRikudō)",
+        "saviourOfThisWorld(この世の救世主,KonoYoNoKyūseishu)",
+        "ghostOfTheUchiha(うちはの亡霊,UchihaNoBōrei)"
+      ]
+    },
+    "tools": ["Fūma Shuriken", "Gunbai", "Kama", "Spear (Anime only)", "Sword", "Tantō (Anime only)"],
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": { "japanese": ["Naoya Uchida", "Gō Inoue   (Child)"], "english": ["Neil Kaplan", "Xander Mobus   (Child)"] }
+  },
+  {
+    "id": 755,
+    "name": "Makibi",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/4/4c/Makibi.png"],
+    "debut": { "anime": "Naruto Shippūden Episode #485", "appearsIn": "Anime" },
+    "personal": {
+      "sex": "Male",
+      "occupation": "Businessman",
+      "affiliation": "Makibi Company\"Makibi Company\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    },
+    "voiceActors": { "japanese": "Minoru Kawai", "english": "Skip Stellrecht" }
+  },
+  {
+    "id": 762,
+    "name": "Manda II",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/0/02/Manda_2.png",
+      "https://static.wikia.nocookie.net/naruto/images/3/3b/Manda_II.png"
+    ],
+    "debut": { "manga": "Naruto Chapter #513", "anime": "Naruto Shippūden Episode #255", "game": "Naruto Mobile", "appearsIn": "Anime, Manga, Game" },
+    "family": { "genetic source": "Manda" },
+    "jutsu": [],
+    "personal": {
+      "sex": "Male",
+      "species": "Snake",
+      "age": { "Part II": "1" },
+      "classification": "Summon",
+      "affiliation": "Kabuto Yakushi\"Kabuto Yakushi\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property.",
+      "titles": ["二代目マンダNidaimeManda"]
+    }
+  },
+  {
+    "id": 778,
+    "name": "Mecha-Naruto",
+    "images": [],
+    "debut": { "anime": "Naruto Shippūden Episode #376", "game": "Naruto Shippūden: Ultimate Ninja Storm Revolution", "appearsIn": "Anime, Game" },
+    "family": { "creator": "Orochimaru" },
+    "jutsu": ["Naruto Shippūden: Ultimate Ninja Storm Revolution11 September 201416 September 2014"],
+    "personal": {
+      "species": "Mecha",
+      "status": "Incapacitated",
+      "classification": "Pseudo-Jinchūriki",
+      "tailedBeast": "Kurama (Forms)",
+      "affiliation": ["Otogakure", "Akatsuki", "Konohagakure"]
+    },
+    "voiceActors": { "japanese": "Junko Takeuchi", "english": "Maile Flanagan" }
+  },
+  {
+    "id": 850,
+    "name": "Mukade",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/b/b3/Mukade.png"],
+    "debut": {
+      "manga": "Naruto Chapter #260",
+      "anime": "Naruto Shippūden Episode #15",
+      "game": "Naruto Shippūden: Ultimate Ninja 5",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "personal": {
+      "sex": "Male",
+      "age": { "Part II": "28" },
+      "status": "Deceased",
+      "classification": "Missing-nin",
+      "occupation": ["Akatsuki spy", "Sasori's subordinate"],
+      "affiliation": ["Sunagakure", "Akatsuki"],
+      "titles": ["ムカデMukade"]
+    },
+    "rank": { "ninjaRank": { "Part II": "Jōnin" } }
+  },
+  {
+    "id": 861,
+    "name": "Nagato",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/4/46/Nagato.png"],
+    "debut": {
+      "manga": "Naruto Chapter #372",
+      "anime": "Naruto Shippūden Episode #128",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie  (Pain)",
+      "game": "Naruto Shippūden: Ultimate Ninja Heroes 3  (Pain)",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "mother": "Fusō", "father": "Ise" },
+    "jutsu": ["The Springtime of Youth wiki has an article about this topic:", "Nagato, Pain"],
+    "natureType": ["Fire Release", "Wind Release", "Lightning Release", "Earth Release", "Water Release", "Yang Release"],
+    "personal": {
+      "birthdate": "September 19",
+      "sex": "Male",
+      "age": { "Part II": "35" },
+      "status": "Deceased",
+      "height": { "Part II": "175.5cm" },
+      "weight": { "Part II": "40.1kg" },
+      "bloodType": "A",
+      "kekkeiGenkai": "Rinnegan",
+      "classification": ["S-rank", "Sensor Type"],
+      "occupation": ["Akatsuki Leader", "Village Head"],
+      "affiliation": ["Amegakure", "Akatsuki"],
+      "team": "Ame Orphans",
+      "partner": "Konan",
+      "clan": "Uzumaki"
+    },
+    "voiceActors": {
+      "japanese": ["Junpei Morita", "Ken'yū Horiuchi   (Pain)", "Tomoaki Maeno   (Child)", "Shiho Hisajima   (Female Animal Path)"],
+      "english": [
+        "Vic Mignogna",
+        "Troy Baker   (Pain)",
+        "Matthew Mercer   (Pain (Shippūden episode 454+))",
+        "Dave Wittenberg   (Pain in Episode 135)",
+        "Kari Wahlgren   (Female Animal Path in Ultimate Ninja Storm 2)",
+        "Stephanie Sheh   (Female Animal Path)"
+      ]
+    }
+  },
+  {
+    "id": 856,
+    "name": "Naruto Musasabi",
+    "images": [],
+    "natureType": ["Wind Release", "Lightning Release", "Yang Release"],
+    "personal": {
+      "sex": "Male",
+      "classification": "Sage",
+      "affiliation": "Shuku Village\"Shuku Village\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property.",
+      "team": "Team Shū",
+      "age": { "Academy Graduate": "6" }
+    },
+    "rank": { "ninjaRank": { "Part II": "Jōnin" } }
+  },
+  {
+    "id": 887,
+    "name": "Nazuna",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/2/2b/Nazuna.png"],
+    "debut": { "game": "Naruto: Path of the Ninja 2", "appearsIn": "Game" },
+    "family": {},
+    "personal": {
+      "sex": "Female",
+      "affiliation": "Valley of Great Evil\"Valley of Great Evil\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    }
+  },
+  {
+    "id": 1303,
+    "name": "Obito Uchiha",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/4/4a/Obito_Uchiha.png",
+      "https://static.wikia.nocookie.net/naruto/images/3/3c/Obito.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #239",
+      "anime": "Naruto Shippūden Episode #32",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja Heroes 3",
+      "ova": "Naruto: The Cross Roads",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "grandmother ": "Obito's Grandmother" },
+    "jutsu": [
+      "Animal Path",
+      "Asura Path",
+      "Black Receiver",
+      "Chakra Transfer Technique",
+      "Demonic Statue Chains",
+      "Deva Path",
+      "Earth Release: Hiding Like a Mole Technique",
+      "Explosive Landmines",
+      "Fire Release: Blast Wave Wild Dance",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique (Anime only)",
+      "Genjutsu: Sharingan",
+      "Hands of Flame",
+      "Human Path",
+      "Infinite Tsukuyomi",
+      "Izanagi",
+      "Kamui",
+      "Naraka Path",
+      "Outer Path",
+      "Outer Path — Samsara of Heavenly Life Technique",
+      "Preta Path",
+      "Regeneration Ability",
+      "Sealing Technique: Phantom Dragons Nine Consuming Seals",
+      "Sensing Technique",
+      "Six Paths Senjutsu",
+      "Six Paths Technique",
+      "Six Paths Ten-Tails Coffin Seal",
+      "Six Paths of Pain",
+      "Six Red Yang Formation",
+      "Summoning Rinnegan",
+      "Summoning Technique (Demonic Statue of the Outer Path, Kurama)",
+      "Summoning: Demonic Statue of the Outer Path",
+      "Tail Releasing Method",
+      "Tailed Beast Ball",
+      "Tailed Beast Chakra Arms",
+      "Tailed Beast Transfer Technique",
+      "Telescope Technique",
+      "Truth-Seeking Ball",
+      "Uchiha Flame Formation",
+      "Uchiha Return",
+      "Whac-A-Mole Technique (Anime only)",
+      "Wood Release: Cutting Technique",
+      "Wood Release: Great Spear Tree",
+      "Wood Release: Underground Roots Technique",
+      "Wood Release: Wood Dragon Technique"
+    ],
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Wood Release",
+      "Yin Release",
+      "Yang Release",
+      "Yin–Yang Release"
+    ],
+    "personal": {
+      "birthdate": "February 10",
+      "sex": "Male",
+      "age": { "Part I": "13  (Kakashi Gaiden)", "Part II": "31", "Academy Graduate": "9", "Chunin Promotion": "11" },
+      "status": "Deceased",
+      "height": { "Part I": "154.2cm", "Part II": "175cm - 182cm" },
+      "weight": { "Part I": "44.5kg", "Part II": "55.9kg - 70.3kg" },
+      "bloodType": "O",
+      "kekkeiGenkai": ["Sharingan", "Mangekyō Sharingan", "Rinnegan", "Wood Release"],
+      "classification": ["Jinchūriki", "Pseudo-Jinchūriki", "Missing-nin", "S-rank", "Sensor Type"],
+      "tailedBeast": "Ten-Tails, Shukaku, Gyūki, Kurama (Yin half) (Forms)",
+      "occupation": ["Leader of Akatsuki", "Secret Leader of Kirigakure"],
+      "affiliation": ["Konohagakure", "Akatsuki", "Kirigakure"],
+      "team": "Team Minato",
+      "partner": ["Madara Uchiha", "Deidara", "Zetsu"],
+      "clan": "Uchiha",
+      "titles": [
+        "うちはオビトUchihaObito",
+        "tobi(トビ)",
+        "madaraUchiha(うちはマダラ,UchihaMadara)",
+        "maskedMadara(仮面のマダラ,KamenNoMadara)",
+        "maskedMan(仮面の男,KamenNoOtoko)",
+        "saviour(救世主,Kyūseishu)"
+      ]
+    },
+    "rank": { "ninjaRank": { "Part I": "Chūnin" }, "ninjaRegistration": "010886" },
+    "tools": ["Fūma Shuriken", "Gunbai", "Kusari", "Sword", "Sword of Nunoboko"],
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": {
+      "japanese": [
+        "Wataru Takagi",
+        "Naoya Uchida   (Madara)",
+        "Sōsuke Komori  (Child) (Kakashi Gaiden and 5 video games)",
+        "Megumi Han   (Child) (Shippūden episode 343+)"
+      ],
+      "english": [
+        "Michael Yurchak",
+        "Todd Haberkorn   (Ultimate Ninja Storm Revolution)",
+        "Neil Kaplan   (Madara)",
+        "Nolan North  (Madara in Ultimate Ninja Storm 2)",
+        "Vic Mignogna   (Child in all media and Madara in Ultimate Ninja Impact)"
+      ]
+    }
+  },
+  {
+    "id": 928,
+    "name": "Orochimaru",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/1/14/Orochimaru_Infobox.png",
+      "https://static.wikia.nocookie.net/naruto/images/b/be/Orochimaru_Part_III.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #45",
+      "anime": "Naruto Episode #27",
+      "novel": "Sasuke Shinden: Book of Sunrise",
+      "movie": "Naruto Shippūden the Movie: Bonds",
+      "game": "Naruto: Ninja Council",
+      "ova": "Hidden Leaf Village Grand Sports Festival!",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "clone/son": "Mitsuki" },
+    "jutsu": [
+      "Binding Snake Glare Spell",
+      "Casualty Puppet (Anime only)",
+      "Chakra Scalpel (Anime only)",
+      "Earth Release: Hiding Like a Mole Technique",
+      "Earth Release: Shadow Clone (Anime only)",
+      "Eight Branches Technique",
+      "Eight Trigrams Sealing Style (Anime only)",
+      "Five Elements Seal",
+      "Five Elements Unseal (Anime only)",
+      "Formation of Ten Thousand Snakes",
+      "Four Black Snakes Formation (Anime only)",
+      "Four Symbols Seal (Anime only)",
+      "Fūinjutsu Trap (Anime only)",
+      "Gathering of the Snakes",
+      "Genjutsu Binding (Anime only)",
+      "Hidden Doorway Technique (Anime only)",
+      "Hidden Shadow Snake Hands",
+      "Hideout Destruction Trap (Anime only)",
+      "Hiding in Surface Technique",
+      "Living Corpse Reincarnation",
+      "Many Hidden Shadow Snake Hands",
+      "Orochimaru's Juinjutsu",
+      "Orochimaru-Style Body Replacement Technique",
+      "Regeneration Ability",
+      "Reversible Technique (Anime only)",
+      "Self-Healing Technique (Anime only)",
+      "Shadow Clone Technique",
+      "Shuriken Shadow Clone Technique (Anime only)",
+      "Slithering Snake Mode",
+      "Snake Clone Technique (Anime only)",
+      "Snake Mouth Bind (Anime only)",
+      "Soft Physique Modification",
+      "Sound Wave Technique (Anime only)",
+      "Space–Time Technique Formula: Underworld Turnover (Anime only)",
+      "Substitute Technique",
+      "Summoning Technique (Shinigami, Snake)",
+      "Summoning: Impure World Reincarnation",
+      "Summoning: Rashōmon",
+      "Summoning: Triple Rashōmon",
+      "Sword of Kusanagi: Longsword of the Sky",
+      "Temporary Paralysis Technique",
+      "Twin Snakes Mutual Death Technique",
+      "Vanishing Facial Copy Technique",
+      "White Snake Possession (Anime only)",
+      "Wind Release: Breakthrough",
+      "Wind Release: Gale Palm (Anime only)",
+      "Wind Release: Great Breakthrough"
+    ],
+    "natureType": [
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wood Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "personal": {
+      "birthdate": "October 27",
+      "sex": "File:Gender Various.svg Various",
+      "age": { "Part I": "50–51", "Part II": "54", "Academy Graduate": "6" },
+      "height": { "Part I": "179.4cm - 172cm", "Part II": "172cm", "Gaiden": "179.5cm" },
+      "weight": { "Part I": "63.9kg - 57.3kg", "Part II": "57.3kg" },
+      "bloodType": "B",
+      "kekkeiGenkai": ["Jūgo's Clan's Kekkei Genkai", "Sakon and Ukon's Kekkei Genkai", "Shikotsumyaku", "Wood Release"],
+      "classification": ["Missing-nin", "S-rank", "Sannin"],
+      "occupation": ["Founder and Leader of Otogakure", "Scientist"],
+      "affiliation": ["Konohagakure", "Root", "Akatsuki", "Otogakure", "Ryūchi Cave"],
+      "team": ["Team Hiruzen", "Team Orochimaru", "Team Dosu"],
+      "partner": ["Sasori", "Kabuto Yakushi"]
+    },
+    "rank": { "ninjaRank": { "Part I": "Anbu" }, "ninjaRegistration": "002300" },
+    "tools": ["Genjutsu Pill (Anime only)", "Mind Awakening Pill", "Poison", "Shinigami Mask", "Sword", "Sword of Kusanagi"],
+    "uniqueTraits": ["Can absorb chakra"],
+    "voiceActors": {
+      "japanese": [
+        "Kujira  (Original form)",
+        "Yuriko Yamaguchi   (Shiore)",
+        "Mayumi Yamaguchi   (Child)",
+        "Sachiko Kojima   (Female body)",
+        "Masahiko Tanaka   (Fourth Kazekage)"
+      ],
+      "english": ["Steven Blum   (Original form)", "Mary Elizabeth McGlynn   (Shiore and Female Body)", "Crispin Freeman   (Fourth Kazekage)"]
+    }
+  },
+  {
+    "id": 960,
+    "name": "Raimei",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/f/f8/Raimei.png"],
+    "debut": { "anime": "Naruto Shippūden Episode #485", "appearsIn": "Anime" },
+    "natureType": ["Lightning Release"],
+    "personal": {
+      "sex": "Male",
+      "affiliation": "Makibi Corporation\"Makibi Corporation\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    },
+    "voiceActors": { "japanese": "Hirokazu Sekido", "english": "Brian Donovan" }
+  },
+  {
+    "id": 830,
+    "name": "Renge Momoashi",
+    "images": [],
+    "natureType": ["Water Release"],
+    "personal": {
+      "sex": "Male",
+      "classification": "Missing-nin",
+      "affiliation": "Shuku Village\"Shuku Village\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property.",
+      "team": "Team Shū"
+    },
+    "rank": { "ninjaRank": { "Part II": "Jōnin" } }
+  },
+  {
+    "id": 1000,
+    "name": "Sabu",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/8/8a/Sabu.png"],
+    "debut": {
+      "manga": "Naruto Chapter #468",
+      "anime": "Naruto Shippūden Episode #206",
+      "game": "Naruto Shippūden: Ultimate Ninja Impact",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "jutsu": ["Yosaku Cut"],
+    "personal": {
+      "birthdate": "October 4",
+      "sex": "Male",
+      "age": { "Part II": "61" },
+      "height": { "Part II": "130.5cm" },
+      "weight": { "Part II": "37kg" },
+      "bloodType": "O",
+      "occupation": "Enka Singer",
+      "affiliation": "Enka Ninja\"Enka Ninja\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property.",
+      "partner": "Ponta"
+    },
+    "tools": ["Axe"],
+    "voiceActors": { "japanese": "Katsuhisa Hōki", "english": "Michael Sorich" }
+  },
+  {
+    "id": 1042,
+    "name": "Sasori",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/f/f7/Sasori.png"],
+    "debut": {
+      "manga": "Naruto Chapter #247",
+      "anime": "Naruto Shippūden Episode #2",
+      "novel": "Akatsuki Hiden: Evil Flowers in Full Bloom",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Gekitō Ninja Taisen! EX",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": { "father": "Sasori's Father", "mother": "Sasori's Mother", "grandmother": "Chiyo", "granduncle": "Ebizō" },
+    "jutsu": [
+      "Iron Sand Drizzle",
+      "Iron Sand Gathering Assault",
+      "Iron Sand World Method",
+      "Iron Sand: Black Iron Wings",
+      "Memory-Concealing Manipulative Sand Technique",
+      "Prepared Puppet: Eight Waves of Needles",
+      "Puppet Performance: Skilful Achievement with a Human Body",
+      "Puppet Technique",
+      "Puppet Technique: Prosthetic Arm Senbon",
+      "Red Secret Technique: Performance of a Hundred Puppets",
+      "Sand Clone (Anime only)",
+      "Thousand Hands Manipulation Force"
+    ],
+    "personal": {
+      "birthdate": "November 8",
+      "sex": "Male",
+      "age": { "Part II": "35", "Academy Graduate": "7", "Chunin Promotion": "8" },
+      "status": "Deceased",
+      "height": { "Part II": "164.1cm" },
+      "weight": { "Part II": "47.3kg" },
+      "bloodType": "AB",
+      "classification": ["S-rank", "Missing-nin"],
+      "affiliation": ["Sunagakure", "Akatsuki"],
+      "team": ["Puppet Brigade", "Surprise Attack and Diversion Platoon"],
+      "partner": ["Orochimaru", "Deidara"]
+    },
+    "rank": { "ninjaRegistration": "33-001" },
+    "tools": [
+      "Flamethrower",
+      "Hiruko",
+      "Hundred Puppet Army",
+      "Iron Sand",
+      "Kama",
+      "Karasu",
+      "Third Kazekage",
+      "Komushi  (Anime only)",
+      "Kuroari",
+      "Mother and Father",
+      "Poison",
+      "Puppet Buzzsaw",
+      "Sand (Anime only)",
+      "Sanshōuo",
+      "Sasori",
+      "Senbon",
+      "Sword",
+      "Water Stream Shooters (Anime only)"
+    ],
+    "voiceActors": {
+      "japanese": ["Takahiro Sakurai", "Yutaka Aoyama   (Hiruko)", "Akiko Yajima   (Child)"],
+      "english": ["Johnny Yong Bosch   (Adult and Child in Episode 319)", "J.B. Blanc   (Hiruko)", "Kate Higgins   (Child)"]
+    }
+  },
+  {
+    "id": 1307,
+    "name": "Sasuke Uchiha",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png",
+      "https://static.wikia.nocookie.net/naruto/images/1/13/Sasuke_Part_2.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #3",
+      "anime": "Naruto Episode #1",
+      "novel": "Naruto: Innocent Heart, Demonic Blood",
+      "movie": "Naruto the Movie: Ninja Clash in the Land of Snow",
+      "game": "Naruto: Konoha Ninpōchō",
+      "ova": "Find the Four-Leaf Red Clover!",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "family": {
+      "father": "Fugaku Uchiha",
+      "mother": "Mikoto Uchiha",
+      "brother": "Itachi Uchiha",
+      "daughter": "Sarada Uchiha",
+      "wife": "Sakura Uchiha"
+    },
+    "jutsu": [
+      "Afterglow",
+      "Amaterasu",
+      "Amaterasu: Flame Wrapping Fire",
+      "Amenotejikara",
+      "Animal Path",
+      "Area Scanning Technique",
+      "Asura Path",
+      "Banshō Ten'in (Anime only)",
+      "Binding Snake Glare Spell",
+      "Blaze Release: Honoikazuchi (Anime only)",
+      "Blaze Release: Kagutsuchi",
+      "Blaze Release: Susanoo Kagutsuchi",
+      "Blaze Release: Yasaka Magatama",
+      "Chibaku Tensei",
+      "Chidori",
+      "Chidori Current",
+      "Chidori Light Sword",
+      "Chidori Senbon",
+      "Chidori Sharp Spear",
+      "Coercion Sharingan",
+      "Combination Transformation (Anime only)",
+      "Cursed Seal of Heaven",
+      "Demonic Illusion: Mirage Crow",
+      "Demonic Illusion: Shackling Stakes Technique",
+      "Deva Path",
+      "Earth Release: Stone Luster",
+      "Evil Releasing Method",
+      "Fire Release: Dragon Fire Technique",
+      "Fire Release: Great Dragon Fire Technique",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique",
+      "Genjutsu: Sharingan",
+      "Hidden Shadow Snake Hands",
+      "Human Path",
+      "Hurricane Thunderclap — Majestic Attire Sword Stroke",
+      "Indra's Arrow",
+      "Kirin",
+      "Lightning Flash",
+      "Lion Combo",
+      "Lorentz Gun (Novel only)",
+      "Majestic Attire: Susanoo",
+      "Manipulated Shuriken Technique",
+      "Manipulating Windmill Triple Blades",
+      "Moonlight",
+      "Naka Shrine Pass Technique",
+      "Naraka Path",
+      "Orochimaru-Style Body Replacement Technique",
+      "Outer Path",
+      "Pachinko Technique (Anime only)",
+      "Peregrine Falcon Drop",
+      "Preta Path",
+      "Reverse Summoning Technique",
+      "Sasuke Uchiha's Space–Time Dōjutsu",
+      "Scorch Release: Halo Hurricane Jet Black Arrow Style Zero",
+      "Shadow Clone Technique",
+      "Shadow Shuriken Technique",
+      "Shadow of the Dancing Leaf",
+      "Six Paths Technique",
+      "Six Paths Yin Power",
+      "Six Paths — Chibaku Tensei",
+      "Strong Fist",
+      "Summoning Technique (Hawk, Snake)",
+      "Summoning: Lightning Flash Blade Creation",
+      "Supercooled Water Technique",
+      "Surging Fire Wild Dance",
+      "Susanoo",
+      "Susanoo: Captive Slash",
+      "Susanoo: Chidori",
+      "Susanoo: Crush",
+      "Susanoo: Fist",
+      "Susanoo: Great Fireball Technique (Anime only)",
+      "Sword of Kagutsuchi",
+      "Sword of Kusanagi: Chidori Katana",
+      "Uchiha Style Shurikenjutsu: \"Lightning\": Triple",
+      "Water Release: Water Formation Wall (Novel only)"
+    ],
+    "natureType": ["Lightning Release  (Affinity; Anime only)", "Fire Release", "Wind Release", "Earth Release", "Water Release", "Yin Release"],
+    "personal": {
+      "birthdate": "July 23",
+      "sex": "Male",
+      "age": { "Part I": "12–13", "Part II": "16–17", "Academy Graduate": "12" },
+      "height": { "Part I": "150.8cm - 153.2cm", "Part II": "168cm", "Blank Period": "182cm" },
+      "weight": { "Part I": "42.2kg - 43.5kg", "Part II": "52.2kg" },
+      "bloodType": "AB",
+      "kekkeiGenkai": ["Sharingan", "Eternal Mangekyō Sharingan", "Rinnegan"],
+      "classification": "Missing-nin",
+      "occupation": "Head of the Uchiha Clan",
+      "affiliation": ["Konohagakure", "Otogakure", "Ryūchi Cave", "Akatsuki"],
+      "team": ["Team Kakashi", "Sound Four", "Taka"],
+      "clan": "Uchiha",
+      "titles": [
+        "うちはサスケUchihaSasuke",
+        "childOfTheProphecy(予言の子,YogenNoKo)",
+        "sasukeOfTheSharingan(写輪眼のサスケ,SharinganNoSasuke)",
+        "supportingKage(支う影,Sasaukage,LiterallyMeaning:SupportingShadow)"
+      ]
+    },
+    "rank": { "ninjaRank": { "Part I": "Genin" }, "ninjaRegistration": "012606" },
+    "tools": [
+      "Bow & Arrow",
+      "Fūma Shuriken",
+      "Katar",
+      "Kusari (Anime only)",
+      "Mind Awakening Pill",
+      "Scalpel (Anime only)",
+      "Sword",
+      "Sword of Kusanagi",
+      "Wire Strings"
+    ],
+    "voiceActors": { "japanese": ["Noriaki Sugiyama", "Nao Tōyama   (Infant and Child)"], "english": ["Yuri Lowenthal", "Erica Mendez   (Infant)"] }
+  },
+  {
+    "id": 1309,
+    "name": "Shin Uchiha",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/c/cd/Shin_uchiha.png"],
+    "debut": {
+      "manga": "Naruto Chapter #700+2",
+      "anime": "Boruto Episode #20",
+      "novel": "Naruto Shinden: Parent and Child Day  (Mentioned)",
+      "game": "Naruto: Ultimate Ninja Online",
+      "appearsIn": "Anime, Manga, Novel, Game"
+    },
+    "jutsu": ["Object Manipulation Technique", "Shin Uchiha's Space–Time Dōjutsu"],
+    "personal": {
+      "sex": "Male",
+      "status": "Deceased",
+      "kekkeiGenkai": ["Sharingan", "Mangekyō Sharingan"],
+      "classification": "Medical-nin",
+      "affiliation": ["Otogakure", "Akatsuki"],
+      "team": "Shin Uchiha (Clones)",
+      "titles": ["うちはシンUchihaShin"]
+    },
+    "tools": ["Naruto: Ultimate Ninja Online14 April 201320 July 2016"],
+    "voiceActors": { "japanese": "Nobuyuki Hiyama", "english": "Mick Wingert" }
+  },
+  {
+    "id": 430,
+    "name": "Suigetsu Hōzuki",
+    "images": [
+      "https://static.wikia.nocookie.net/naruto/images/3/3e/Suigetsu_H%C5%8Dzuki.png",
+      "https://static.wikia.nocookie.net/naruto/images/7/72/Suigetsu_part_III.png"
+    ],
+    "debut": {
+      "manga": "Naruto Chapter #346",
+      "anime": "Naruto Shippūden Episode #115",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "game": "Naruto Shippūden: Dragon Blade Chronicles",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game"
+    },
+    "family": { "older brother": "Mangetsu Hōzuki" },
+    "jutsu": [
+      "Drowning Water Blob Technique",
+      "Hydrification Technique",
+      "Silent Killing",
+      "Water Clone Technique (Anime only)",
+      "Water Gun Technique",
+      "Water Gun: Two Guns",
+      "Water Release: Great Water Arm Technique",
+      "Water Release: Tate Eboshi",
+      "Water Release: Water Hail (Anime only)"
+    ],
+    "natureType": ["Water Release", "Wind Release"],
+    "personal": {
+      "birthdate": "February 18",
+      "sex": "Male",
+      "age": { "Part II": "16–17" },
+      "height": { "Part II": "177.4cm", "Gaiden": "178.6cm" },
+      "weight": { "Part II": "57kg" },
+      "bloodType": "B",
+      "affiliation": ["Kirigakure", "Otogakure", "Akatsuki"],
+      "team": "Taka",
+      "clan": "Hōzuki",
+      "titles": ["鬼灯水月HōzukiSuigetsu", "secondComingOfTheDemon(鬼人の再来,KijinNoSairai)"]
+    },
+    "tools": ["Kubikiribōchō"],
+    "voiceActors": { "japanese": "Takashi Kondō", "english": "Grant George" }
+  },
+  {
+    "id": 1167,
+    "name": "Suzuran",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/c/cc/Suzuran.png"],
+    "debut": { "anime": "Naruto Shippūden Episode #485", "appearsIn": "Anime" },
+    "personal": {
+      "sex": "Male",
+      "affiliation": "Himeyuri Company\"Himeyuri Company\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property."
+    }
+  },
+  {
+    "id": 1229,
+    "name": "Tobi (Zetsu)",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/7/72/Tobi.png"],
+    "debut": {
+      "manga": "Naruto Chapter #602",
+      "anime": "Naruto Shippūden Episode #344",
+      "game": "Naruto Shippūden: Ultimate Ninja Storm 4",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "jutsu": ["Naruto Shippūden: Ultimate Ninja Blazing14 July 201624 August 2016"],
+    "natureType": ["Wood Release", "Earth Release", "Water Release", "Fire Release", "Wind Release", "Lightning Release"],
+    "personal": {
+      "sex": "Male",
+      "species": "Mutated Human",
+      "status": "Deceased",
+      "height": { "Part II": "180cm" },
+      "bloodType": "B",
+      "kekkeiGenkai": "Wood Release",
+      "affiliation": "Akatsuki",
+      "team": "White Zetsu Army",
+      "partner": ["White Zetsu", "Obito Uchiha"],
+      "titles": ["トビTobi", "guruguru(グルグル,EnglishTv:Swirly)"]
+    },
+    "voiceActors": { "japanese": "Nobuo Tobita", "english": ["Travis Willingham", "Michael Yurchak   (Ultimate Ninja Storm 4)"] }
+  },
+  {
+    "id": 1284,
+    "name": "Tsuyu",
+    "images": [],
+    "natureType": ["Wind Release"],
+    "personal": {
+      "sex": "Female",
+      "classification": "Medical-nin",
+      "affiliation": "Shuku Village\"Shuku Village\" is not in the list (Allied Shinobi Forces, Akatsuki, Root, Kara, Pale Blue Valley, Daidai Village, Aburame Clan, Academy, Advanced Technology Research Institute, Akagahara, ...) of allowed values for the \"Affiliation\" property.",
+      "team": "Team Shū"
+    },
+    "rank": { "ninjaRank": { "Part II": "Jōnin" } }
+  },
+  {
+    "id": 1426,
+    "name": "White Zetsu",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/5/5f/White_Zetsu.png"],
+    "debut": {
+      "manga": "Naruto Chapter #234",
+      "anime": "Naruto Episode #134",
+      "novel": "Naruto Jinraiden: The Day the Wolf Howled",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja 4",
+      "ova": "Naruto Shippūden: UNSG anime cutscenes",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": ["Chakra Transfer Technique", "Mayfly", "Parasite Clone", "Regeneration Ability", "Spore Technique", "Substitute Technique"],
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "personal": {
+      "sex": "Male",
+      "species": "Mutated Human",
+      "status": "Deceased",
+      "height": { "Part II": "177cm" },
+      "bloodType": "B",
+      "kekkeiGenkai": "Wood Release",
+      "classification": "S-rank",
+      "occupation": "Akatsuki Spy",
+      "affiliation": "Akatsuki",
+      "team": "White Zetsu Army",
+      "partner": ["Black Zetsu", "Obito Uchiha"]
+    },
+    "tools": ["Samehada"],
+    "voiceActors": { "japanese": "Nobuo Tobita", "english": ["Travis Willingham", "Brian Beacock   (Naruto episode 135)"] }
+  },
+  {
+    "id": 1356,
+    "name": "Yahiko",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/7/76/Yahiko.png"],
+    "debut": {
+      "manga": "Naruto Chapter #372",
+      "anime": "Naruto Shippūden Episode #128",
+      "novel": "Road to Ninja: Naruto the Movie",
+      "movie": "Road to Ninja: Naruto the Movie",
+      "game": "Naruto Shippūden: Ultimate Ninja Heroes 3",
+      "ova": "Naruto x UT",
+      "appearsIn": "Anime, Manga, Novel, Game, Movie"
+    },
+    "jutsu": ["Water Release: Pillar Encirclement (Anime only)", "Water Release: Wild Water Wave"],
+    "natureType": ["Water Release", "Fire Release", "Wind Release"],
+    "personal": {
+      "birthdate": "February 20",
+      "sex": "Male",
+      "age": { "Part II": "15" },
+      "status": "Deceased",
+      "height": { "Part II": "176.5cm" },
+      "weight": { "Part II": "57.2kg" },
+      "bloodType": "O",
+      "occupation": "Founder and leader of Akatsuki",
+      "affiliation": ["Amegakure", "Akatsuki"],
+      "team": "Ame Orphans"
+    },
+    "tools": ["Sword"],
+    "voiceActors": {
+      "japanese": ["Ken'yū Horiuchi", "Wataru Hatano  (Child)"],
+      "english": ["Troy Baker", "Matthew Mercer   (Shippūden Episode 346+)"]
+    }
+  },
+  {
+    "id": 1409,
+    "name": "Yūra",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/8/85/Yura_in_sand_outfit.png"],
+    "debut": {
+      "manga": "Naruto Chapter #247",
+      "anime": "Naruto Shippūden Episode #2",
+      "game": "Naruto Shippūden: Ultimate Ninja 5",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "personal": {
+      "birthdate": "October 31",
+      "sex": "Male",
+      "age": { "Part II": "28" },
+      "status": "Deceased",
+      "height": { "Part II": "173cm" },
+      "weight": { "Part II": "53.4kg" },
+      "bloodType": "AB",
+      "occupation": ["Senior", "Sasori's subordinate"],
+      "affiliation": ["Sunagakure", "Akatsuki"],
+      "team": "Suna Council"
+    },
+    "rank": { "ninjaRank": { "Part II": "Jōnin" }, "ninjaRegistration": "44-005" },
+    "voiceActors": { "japanese": "Hideo Watanabe", "english": "Keith Silverstein" }
+  },
+  {
+    "id": 1420,
+    "name": "Zangei",
+    "images": ["https://static.wikia.nocookie.net/naruto/images/f/fc/Zangei.png"],
+    "debut": {
+      "manga": "Naruto Chapter #320",
+      "anime": "Naruto Shippūden Episode #76",
+      "game": "Naruto Shippūden: Ultimate Ninja Blazing",
+      "appearsIn": "Anime, Manga, Game"
+    },
+    "personal": { "sex": "Male", "age": { "Part II": "36" }, "occupation": "Bounty exchange master", "affiliation": ["Akatsuki", "Land of Fire"] },
+    "voiceActors": { "japanese": "Kōji Fujiyoshi", "english": "Kirk Thornton" }
+  }
+]
