@@ -3,12 +3,12 @@ title: Get all Tailed Beasts
 ---
 
 ```js
-GET https://api.narutodb.xyz/tailed-beast
+GET https://narutodb.xyz/api/tailed-beast
 ```
 
 ```js
 curl -X 'GET' \
-        'https://api.narutodb.xyz/tailed-beast' \
+        'https://narutodb.xyz/api/tailed-beast' \
      -H 'accept: application/json'
 ```
 
@@ -85,15 +85,16 @@ curl -X 'GET' \
       "debut": {
         ...
 ```
+
 #### Pagination and Limit
 
 ```js
-https://api.narutodb.xyz/tailed-beast?page=1&limit=12
+https://narutodb.xyz/api/tailed-beast?page=1&limit=12
 ```
 
 ```js
 curl -X 'GET' \
-  'https://api.narutodb.xyz/tailed-beast?page=1&limit=12' \
+  'https://narutodb.xyz/api/tailed-beast?page=1&limit=12' \
   -H 'accept: application/json'
 ```
 

@@ -46,15 +46,15 @@ const config: DocsThemeConfig = {
 		</>
 	),
 	banner: {
-    		key: '10-million-hits',
-    		text: (
-      			<a href="https://srini-dev.hashnode.dev/narutodbxyz-how-we-hit-10-million-requests-in-3-months" target="_blank">
-        			🎉 NarutoDB hit 10 million requests in 3 months. Read more →
-      			</a>
-    		),
-		dismissible: true
-
-  }
+		key: 'api-transition',
+		text: (
+			<p className="text-center text-base text-orange-500">
+				We are currently in the phase of transitioning our API routes. Some routes may not
+				work as expected. Please bear with us as we work on this. Thank you! 🙏
+			</p>
+		),
+		dismissible: true,
+	},
 };
 
 export default config;

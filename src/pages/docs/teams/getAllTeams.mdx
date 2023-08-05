@@ -3,12 +3,12 @@ title: Get all Teams
 ---
 
 ```js
-GET https://api.narutodb.xyz/team
+GET https://narutodb.xyz/api/team
 ```
 
 ```js
 curl -X 'GET' \
-        'https://api.narutodb.xyz/team' \
+        'https://narutodb.xyz/api/team' \
      -H 'accept: application/json'
 ```
 
@@ -99,15 +99,16 @@ curl -X 'GET' \
             "clan": "Akimichi"
             ...
 ```
+
 #### Pagination and Limit
 
 ```js
-https://api.narutodb.xyz/team?page=2&limit=5
+https://narutodb.xyz/api/team?page=2&limit=5
 ```
 
 ```js
 curl -X 'GET' \
-  'https://api.narutodb.xyz/team?page=2&limit=5' \
+  'https://narutodb.xyz/api/team?page=2&limit=5' \
   -H 'accept: application/json'
 ```
 
