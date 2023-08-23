@@ -11,7 +11,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	const karaToReturn = kara.slice(startIndex, endIndex);
 
 	return res.status(200).json({
-		clans: karaToReturn,
+		kara: karaToReturn,
 		currentPage: page,
 		pageSize: limit,
 		totalKara: kara.length,
