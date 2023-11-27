@@ -10,7 +10,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
 	const clansToReturn = clans.slice(startIndex, endIndex);
 
-	return res.status(200).json({
+	return res.setHeader('Access-Control-Allow-Origin', '*').status(200).json({
 		clans: clansToReturn,
 		currentPage: page,
 		pageSize: limit,

@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!kara) {
 		return res.status(404).send(`Kara member with name '${name}' not found`);
 	}
-	return res.json(kara);
+	return res.setHeader('Access-Control-Allow-Origin', '*').json(kara);
 };
 
 export default handler;

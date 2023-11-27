@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!kekkeiGenkai) {
 		return res.status(404).send(`Kekkei Genkai with name '${name}' not found`);
 	}
-	return res.json(kekkeiGenkai);
+	return res.setHeader('Access-Control-Allow-Origin', '*').json(kekkeiGenkai);
 };
 
 export default handler;
