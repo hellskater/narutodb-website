@@ -72,6 +72,7 @@
 		"import/no-unresolved": "off",
 		// missing file extension is error
 		"import/extensions": "off",
-		"jsx-a11y/label-has-associated-control": "off"
+		"jsx-a11y/label-has-associated-control": "off",
+		"jsx-a11y/control-has-associated-label": "off"
 	}
 }
