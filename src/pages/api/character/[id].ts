@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!character) {
 		return res.status(404).send(`Character with id '${id}' not found`);
 	}
-	return res.json(character);
+	return res.setHeader('Access-Control-Allow-Origin', '*').json(character);
 };
 
 export default handler;

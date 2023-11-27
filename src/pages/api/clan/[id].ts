@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!clan) {
 		return res.status(404).send(`Clan with id '${id}' not found`);
 	}
-	return res.json(clan);
+	return res.setHeader('Access-Control-Allow-Origin', '*').json(clan);
 };
 
 export default handler;

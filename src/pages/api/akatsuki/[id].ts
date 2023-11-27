@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!akatsuki) {
 		return res.status(404).send(`Akatsuki member with id '${id}' not found`);
 	}
-	return res.json(akatsuki);
+	return res.setHeader('Access-Control-Allow-Origin', '*').json(akatsuki);
 };
 
 export default handler;
