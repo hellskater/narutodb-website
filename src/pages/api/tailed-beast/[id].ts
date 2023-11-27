@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!tailedBeast) {
 		return res.status(404).send(`Tailed Beast with id '${id}' not found`);
 	}
-	return res.setHeader('Access-Control-Allow-Origin', '*').json(tailedBeast);
+	return res.json(tailedBeast);
 };
 
 export default handler;

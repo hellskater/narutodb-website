@@ -10,7 +10,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
 	const kekkeiGenkaisToReturn = kekkeiGenkais.slice(startIndex, endIndex);
 
-	return res.setHeader('Access-Control-Allow-Origin', '*').status(200).json({
+	return res.status(200).json({
 		kekkeigenkai: kekkeiGenkaisToReturn,
 		currentPage: page,
 		pageSize: limit,
