@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!village) {
 		return res.status(404).send(`Village with id '${id}' not found`);
 	}
-	return res.setHeader('Access-Control-Allow-Origin', '*').json(village);
+	return res.json(village);
 };
 
 export default handler;

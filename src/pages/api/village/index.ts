@@ -10,7 +10,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
 	const villagesToReturn = villages.slice(startIndex, endIndex);
 
-	return res.setHeader('Access-Control-Allow-Origin', '*').status(200).json({
+	return res.status(200).json({
 		villages: villagesToReturn,
 		currentPage: page,
 		pageSize: limit,

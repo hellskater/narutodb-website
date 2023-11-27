@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 	if (!team) {
 		return res.status(404).send(`Team with name '${name}' not found`);
 	}
-	return res.setHeader('Access-Control-Allow-Origin', '*').json(team);
+	return res.json(team);
 };
 
 export default handler;
