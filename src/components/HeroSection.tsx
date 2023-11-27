@@ -12,7 +12,7 @@ function HeroSection() {
 					className="h-full w-full object-cover opacity-40"
 				/>
 
-				<div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
+				<div className="absolute left-0 top-0 flex h-full w-full items-center justify-center">
 					<header className="text-center font-naruto text-3xl font-semibold leading-normal tracking-wider text-gray-800 selection:bg-white selection:bg-opacity-70 selection:text-orange-600 dark:text-white dark:selection:bg-black dark:selection:bg-opacity-80 md:text-5xl lg:text-8xl ">
 						Naruto Character Universe
 					</header>
